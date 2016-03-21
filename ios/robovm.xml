@@ -9,4 +9,27 @@
             <directory>resources</directory>
         </resource>
     </resources>
+    <frameworkPaths>
+        <path>libs</path>
+    </frameworkPaths>
+    <frameworks>
+        <framework>OtherLevels</framework>
+        <framework>StoreKit</framework>
+        <framework>AdSupport</framework>
+        <framework>AudioToolbox</framework>
+        <framework>AVFoundation</framework>
+        <framework>CFNetwork</framework>
+        <framework>CoreGraphics</framework>
+        <framework>CoreImage</framework>
+        <framework>CoreLocation</framework>
+        <framework>CoreTelephony</framework>
+        <framework>Foundation</framework>
+        <framework>iAd</framework>
+        <framework>MediaPlayer</framework>
+        <framework>MobileCoreServices</framework>
+        <framework>QuartzCore</framework>
+        <framework>SystemConfiguration</framework>
+        <framework>UIKit</framework>
+        <framework>MessageUI</framework>
+    </frameworks>
 </config>
