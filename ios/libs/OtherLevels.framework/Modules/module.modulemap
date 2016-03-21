@@ -1,0 +1,6 @@
+framework module OtherLevels {
+  umbrella header "OtherLevels.h"
+
+  export *
+  module * { export * }
+}
