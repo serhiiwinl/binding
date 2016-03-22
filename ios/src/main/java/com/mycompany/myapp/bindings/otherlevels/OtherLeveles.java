@@ -10,7 +10,6 @@ import org.robovm.objc.annotation.Block;
 import org.robovm.objc.annotation.Method;
 import org.robovm.objc.annotation.NativeClass;
 import org.robovm.objc.block.VoidBlock1;
-import org.robovm.rt.bro.ValuedEnum;
 
 /**
  * Created by sliubetskyi on 3/21/16.
@@ -80,4 +79,23 @@ public class OtherLeveles extends NSObject {
 
     @Method(selector = "deleteAllTags:")
     public static native void deleteAllTags();
+
+    /**
+     * Register an event for the session
+     *
+     * @param eventType  The type of event (should be an explanative top level ie. overview, purchase, registered, opened)
+     * @param eventLabel The event label (should be a more descriptive label ie. Purchased Magic Beans $5.99 package)
+     */
+    @Method(selector = "registerEvent:label")
+    public static native void registerEvent(String eventType, String eventLabel);
+
+    /**
+     * Register an event for the session with phash
+     *
+     * @param eventType  The type of event (should be an explanative top level ie. overview, purchase, registered, opened)
+     * @param eventLabel The event label (should be a more descriptive label ie. Purchased Magic Beans $5.99 package)
+     * @param phash      The phash passed in separately with the event call
+     */
+    @Method(selector = "registerEvent:label:phash")
+    public static native void registerEvent(String eventType, String eventLabel, String phash);
 }

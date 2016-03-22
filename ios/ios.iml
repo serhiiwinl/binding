@@ -22,5 +22,12 @@
     <orderEntry type="jdk" jdkName="RoboVM SDK 1.14.0" jdkType="RoboVM SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="core" exported="" />
+    <orderEntry type="library" exported="" name="robovm-rt-1.14.0" level="project" />
+    <orderEntry type="library" exported="" name="robovm-cocoatouch-1.14.0" level="project" />
+    <orderEntry type="library" exported="" name="robovm-rt-common-1.14.0" level="project" />
+    <orderEntry type="library" exported="" name="robovm-objc-1.14.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="ios.ios" level="project" />
   </component>
 </module>
