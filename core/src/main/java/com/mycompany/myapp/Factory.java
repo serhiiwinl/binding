@@ -1,6 +1,6 @@
 package com.mycompany.myapp;
 
-import com.sun.demo.jvmti.hprof.Tracker;
+import com.mycompany.myapp.trackers.Tracker;
 
 /**
  * Created by sliubetskyi on 3/22/16.
@@ -28,8 +28,7 @@ public class Factory {
     }
 
     public static Tracker getTracker() {
-
-        return new Tracker();
+        return null;
     }
 
 
