@@ -43,36 +43,36 @@ extends NSObject {
     @Property(selector="appKey")
     public native String getAppKey();
 
-    @Property(selector="setAppKey")
+    @Property(selector="setAppKey:")
     public native void setAppKey(String appKey);
 
     @Property(selector="deviceId")
     public native String getDeviceId();
 
-    @Property(selector="setDeviceId")
+    @Property(selector="setDeviceId:")
     public native void setDeviceId(String deviceId);
 
     @Property(selector="portfolioAppKey")
     public native String getPortfolioAppKey();
 
-    @Property(selector="setPortfolioAppKey")
+    @Property(selector="setPortfolioAppKey:")
     public native void setPortfolioAppKey(String portfolioAppKey);
 
     @Property(selector="handleApplicationEvents")
     public native boolean getHandleApplicationEvents();
 
-    @Property(selector="setHandleApplicationEvents")
+    @Property(selector="setHandleApplicationEvents:")
     public native void setHandleApplicationEvents(boolean handleApplicationEvents);
 
     @Property(selector="handleBackgroundFetch")
     public native boolean getHandleBackgroundFetch();
 
-    @Property(selector="setHandleBackgroundFetch")
+    @Property(selector="setHandleBackgroundFetch:")
     public native void setHandleBackgroundFetch(boolean handleBackgroundFetch);
 
     @Property(selector="strictValidation")
     public native boolean getStrictValidation();
 
-    @Property(selector="setStrictValidation")
+    @Property(selector="setStrictValidation:")
     public native void setStrictValidation(boolean strictValidation);
 }

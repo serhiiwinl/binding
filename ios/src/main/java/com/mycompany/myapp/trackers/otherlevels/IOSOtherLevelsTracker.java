@@ -5,6 +5,7 @@ import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
 import com.mycompany.myapp.config.AppConfig;
 import com.mycompany.myapp.config.TrackerConstants;
+import com.mycompany.myapp.trackers.PushNotification;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
@@ -19,6 +20,16 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
 
     private MyViewController appController;
     private String deviceToken;
+    protected NSDictionary<?, ?> appLaunchOptions;
+    private static IOSOtherLevelsTracker instance;
+
+    private IOSOtherLevelsTracker () {}
+
+    public static IOSOtherLevelsTracker getInstanse() {
+        if(instance == null)
+            instance = new IOSOtherLevelsTracker();
+        return instance;
+    }
 
     @Override
     public void attachToAppController(MyViewController appController) {
@@ -33,21 +44,22 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
         options.setHandleApplicationEvents(false);
         options.setAppKey(AppConfig.otherLevelsAppKey);
 
-        OtherLeveles.startSessionWithLaunchOptions(this.appLaunchOptions, options);
+        if (this.appLaunchOptions != null) {
+            OtherLeveles.startSessionWithLaunchOptions(this.appLaunchOptions, options);
+        }
 
         if (deviceToken != null && !deviceToken.equals("")) {
             OtherLeveles.registerDevice(deviceToken);
         }
     }
 
-    @Override
-    public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
-        this.deviceToken = deviceToken.description();
+    public void startWithApplicationLaunchOptions(NSDictionary<?, ?> launchOptions) {
+        this.appLaunchOptions = launchOptions;
     }
 
     @Override
-    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
-
+    public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
+        this.deviceToken = deviceToken.description();
     }
 
     @Override
@@ -62,7 +74,7 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
 //                if(apsDic.get("alert")!=null) {
 //                    message = apsDic.get("alert");
 //                }
-                //appController
+                appController.showPushNotification(new PushNotification(title,message));
             }
         }
     }
@@ -72,11 +84,5 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
         OtherLeveles.registerEvent(TrackerConstants.LOGIN_SUCCESS_EVENT, "User screen name: " + screenName);
         OtherLeveles.setTagValueForTagName(TrackerConstants.LOGIN_SUCCESS_EVENT + "tag", "User screen name: " + screenName, "string");
     }
-
-
-
-
-
-
 
 }

@@ -16,14 +16,22 @@ public abstract class IOSBaseTracker extends BaseTracker {
         this.appLaunchOptions = launchOptions;
     }
 
-    public abstract void attachToAppController(MyViewController appController);
+    public void attachToAppController(MyViewController appController) {
+
+    }
 
     // Application did register for remote notification
-    public abstract void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken);
+    public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
+
+    }
 
     // Application did fail to register for remote notification
-    public abstract void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error);
+    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
+
+    }
 
     // Application receive remote notification
-    public abstract void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo);
+    public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {
+
+    }
 }

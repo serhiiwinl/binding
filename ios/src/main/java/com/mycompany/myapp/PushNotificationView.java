@@ -15,14 +15,13 @@ public class PushNotificationView extends UIView {
     private UILabel uimessageLable;
 
     @IBOutlet
-    public void setTitle(UILabel lable) {
-
-        uiLable = lable;
+    public void setTitle(String lable) {
+        uiLable.setText(lable);
     }
 
     @IBOutlet
-    public void setMessage(UILabel lable) {
-        uimessageLable = lable;
+    public void setMessage(String lable) {
+        uimessageLable.setText(lable);
     }
 
     @IBAction
