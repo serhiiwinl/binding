@@ -3,9 +3,9 @@ package com.mycompany.myapp.trackers;
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class BaseTracker implements Tracker {
+public class AppUsageTracker implements AppUsageTrackerInterface {
 
-    public BaseTracker() {
+    public AppUsageTracker() {
 
     }
 
@@ -20,12 +20,12 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void startActivity(Object activity) {
+    public void startActivity(State activity) {
 
     }
 
     @Override
-    public void endActivity(Object activity) {
+    public void endActivity(State activity) {
 
     }
 
@@ -40,12 +40,12 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void showDialog(Object activity, String dialogName) {
+    public void showDialog(State activity, String dialogName) {
 
     }
 
     @Override
-    public void hideDialog(Object activity, String dialogName) {
+    public void hideDialog(State activity, String dialogName) {
 
     }
 
@@ -210,7 +210,7 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void trackTournamentRegistration(Object tournyCategory, int tournamentId, String buyIn, String entryFee, String currency) {
+    public void trackTournamentRegistration(PokerTournyCategory tournyCategory, int tournamentId, String buyIn, String entryFee, String currency) {
 
     }
 
@@ -245,7 +245,7 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void trackTournamentUnregistration(Object tournyCategory, int tournamentId) {
+    public void trackTournamentUnregistration(PokerTournyCategory tournyCategory, int tournamentId) {
 
     }
 
@@ -270,12 +270,12 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void trackTournamentFinished(Object tournyCategory, int tournamentId, int rank) {
+    public void trackTournamentFinished(PokerTournyCategory tournyCategory, int tournamentId, int rank) {
 
     }
 
     @Override
-    public void trackPreSelectionButtonsSelected(Object preactionButtonTag) {
+    public void trackPreSelectionButtonsSelected(InTurnOption preactionButtonTag) {
 
     }
 
@@ -320,7 +320,8 @@ public class BaseTracker implements Tracker {
     }
 
     @Override
-    public void trackBet(Object buttonTag, String currency, String amount) {
+    public void trackBet(ActionButton buttonTag, String currency, String amount) {
 
     }
+
 }
