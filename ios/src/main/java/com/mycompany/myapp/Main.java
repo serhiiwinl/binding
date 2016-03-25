@@ -13,7 +13,7 @@ public class Main extends UIApplicationDelegateAdapter {
     public boolean didFinishLaunching(UIApplication application, UIApplicationLaunchOptions launchOptions) {
         initAll();
         if (launchOptions !=null) {
-            IOSOtherLevelsTracker.getInstanse().startWithApplicationLaunchOptions(launchOptions.getDictionary());
+            IOSOtherLevelsTracker.getInstance().startWithApplicationLaunchOptions(launchOptions.getDictionary());
             this.didReceiveRemoteNotification(application, launchOptions.getRemoteNotification());
         }
 
@@ -28,17 +28,17 @@ public class Main extends UIApplicationDelegateAdapter {
 
     @Override
     public void didRegisterForRemoteNotifications(UIApplication application, NSData deviceToken) {
-        IOSOtherLevelsTracker.getInstanse().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
+        IOSOtherLevelsTracker.getInstance().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
     }
 
     @Override
     public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
-        IOSOtherLevelsTracker.getInstanse().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
+        IOSOtherLevelsTracker.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
     }
 
     @Override
     public void didFailToRegisterForRemoteNotifications(UIApplication application, NSError error) {
-        IOSOtherLevelsTracker.getInstanse().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
+        IOSOtherLevelsTracker.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
     }
 
     public static void main(String[] args) {

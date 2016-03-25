@@ -1,16 +1,21 @@
 package com.mycompany.myapp.trackers;
 
+import com.mycompany.myapp.others.ActionButton;
+import com.mycompany.myapp.others.InTurnOption;
+import com.mycompany.myapp.others.PokerTournyCategory;
+import com.mycompany.myapp.others.State;
+
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class AppUsageTracker implements AppUsageTrackerInterface {
+public abstract class AppUsageTracker implements AppUsageTrackerInterface {
 
     public AppUsageTracker() {
 
     }
 
     @Override
-    public void start() {
+    public void start(Object data) {
 
     }
 
@@ -323,5 +328,4 @@ public class AppUsageTracker implements AppUsageTrackerInterface {
     public void trackBet(ActionButton buttonTag, String currency, String amount) {
 
     }
-
 }

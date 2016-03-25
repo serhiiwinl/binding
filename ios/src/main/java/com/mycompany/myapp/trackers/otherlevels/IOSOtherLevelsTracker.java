@@ -4,19 +4,20 @@ import com.mycompany.myapp.MyViewController;
 import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
 import com.mycompany.myapp.config.AppConfig;
-import com.mycompany.myapp.config.TrackerConstants;
+import com.mycompany.myapp.trackers.AppUsageTracker;
+import com.mycompany.myapp.trackers.IOSAppUsageTrackerInterface;
 import com.mycompany.myapp.trackers.PushNotification;
+import com.mycompany.myapp.trackers.TrackerConstants;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
-import org.robovm.apple.foundation.NSObject;
 
 import static com.mycompany.myapp.bindings.otherlevels.OLOptions.developmentOptions;
 
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class IOSOtherLevelsTracker extends IOSBaseTracker {
+public class IOSOtherLevelsTracker extends AppUsageTracker implements IOSAppUsageTrackerInterface {
 
     private MyViewController appController;
     private String deviceToken;
@@ -25,16 +26,15 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
 
     private IOSOtherLevelsTracker () {}
 
-    public static IOSOtherLevelsTracker getInstanse() {
+    public static IOSOtherLevelsTracker getInstance() {
         if(instance == null)
             instance = new IOSOtherLevelsTracker();
         return instance;
     }
 
     @Override
-    public void attachToAppController(MyViewController appController) {
-        this.appController = appController;
-
+    public void onAttachToApp(Object app) {
+        super.onAttachToApp(app);
         if (AppConfig.otherLevelsAppKey == null || AppConfig.otherLevelsAppKey.equals("")) {
             System.out.println("OtherLevels application key is null or empty");
             return;
@@ -53,6 +53,7 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
         }
     }
 
+    @Override
     public void startWithApplicationLaunchOptions(NSDictionary<?, ?> launchOptions) {
         this.appLaunchOptions = launchOptions;
     }
@@ -60,6 +61,11 @@ public class IOSOtherLevelsTracker extends IOSBaseTracker {
     @Override
     public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
         this.deviceToken = deviceToken.description();
+    }
+
+    @Override
+    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
+
     }
 
     @Override

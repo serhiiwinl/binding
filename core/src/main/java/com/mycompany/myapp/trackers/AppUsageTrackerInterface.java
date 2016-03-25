@@ -1,27 +1,25 @@
 package com.mycompany.myapp.trackers;
 
-import android.app.Activity;
-import com.bwinparty.mtv.poker.PokerBaseApplication;
-import com.bwinparty.mtv.poker.activity.BasePokerActivity;
-import com.bwinparty.mtv.poker.model.types.PokerTournyCategory;
-import com.bwinparty.mtv.poker.table.model.ActionButton;
-import com.bwinparty.mtv.poker.table.model.InTurnOption;
+import com.mycompany.myapp.others.ActionButton;
+import com.mycompany.myapp.others.InTurnOption;
+import com.mycompany.myapp.others.PokerTournyCategory;
+import com.mycompany.myapp.others.State;
 
 public interface AppUsageTrackerInterface {
 
 	// Start instance of tracker
-	public void start();
+	public void start(Object data);
 
 	// Attach tracker to application
-	public void onAttachToApp(PokerBaseApplication app);
+	public void onAttachToApp(Object app);
 
 	// Activity started
 	// @param started activity
-	public void startActivity(BasePokerActivity activity);
+	public void startActivity(State activity);
 
 	// Activity finished
 	// @param finished activity
-	public void endActivity(BasePokerActivity activity);
+	public void endActivity(State activity);
 
 	// Job started
 	// @param Job name
@@ -34,12 +32,12 @@ public interface AppUsageTrackerInterface {
 	// Show dialog
 	// @param owner activity
 	// @param showed dialog name
-	public void showDialog(Activity activity, String dialogName);
+	public void showDialog(State activity, String dialogName);
 
 	// Show dialog
 	// @param owner activity
 	// @param hided dialog name
-	public void hideDialog(Activity activity, String dialogName);
+	public void hideDialog(State activity, String dialogName);
 
 	// Track application launch
 	// @param application version

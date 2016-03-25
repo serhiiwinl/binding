@@ -20,7 +20,8 @@ public class MyViewController extends UIViewController {
     @Override
     public void viewDidLoad() {
         super.viewDidLoad();
-        IOSOtherLevelsTracker.getInstanse().attachToAppController(this);
+        //TODO:Factory get appUsageTracker
+        IOSOtherLevelsTracker.getInstance().onAttachToApp(this);
     }
 
     @IBAction

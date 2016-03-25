@@ -1,35 +1,29 @@
 package com.mycompany.myapp.trackers;
 
+
+import com.mycompany.myapp.others.*;
+
 import java.util.Iterator;
 import java.util.List;
-
-import android.app.Activity;
-
-import com.bwinparty.mtv.poker.PokerBaseApplication;
-import com.bwinparty.mtv.poker.activity.BasePokerActivity;
-import com.bwinparty.mtv.util.brands.BrandComponentFactory;
-import com.bwinparty.mtv.poker.model.types.PokerTournyCategory;
-import com.bwinparty.mtv.poker.table.model.ActionButton;
-import com.bwinparty.mtv.poker.table.model.InTurnOption;
 
 public class AppUsageCompositeTracker extends AppUsageTracker {
 
 	private List<AppUsageTracker> trackersList = null;
 
 	@Override
-	public void start() {
+	public void start(Object data) {
 		this.trackersList = BrandComponentFactory.getInstance()
 				.getAppUsageTrackersList();
 
 		for (Iterator<AppUsageTracker> iterator = this.trackersList.iterator(); iterator
 				.hasNext();) {
 			AppUsageTracker tracker = iterator.next();
-			tracker.start();
+			tracker.start(null);
 		}
 	}
 
 	@Override
-	public void onAttachToApp(PokerBaseApplication app) {
+	public void onAttachToApp(Object app) {
 		if (this.trackersList == null)
 			return;
 
@@ -41,7 +35,7 @@ public class AppUsageCompositeTracker extends AppUsageTracker {
 	}
 
 	@Override
-	public void startActivity(BasePokerActivity activity) {
+	public void startActivity(State activity) {
 		if (this.trackersList == null)
 			return;
 
@@ -53,7 +47,7 @@ public class AppUsageCompositeTracker extends AppUsageTracker {
 	}
 
 	@Override
-	public void endActivity(BasePokerActivity activity) {
+	public void endActivity(State activity) {
 		if (this.trackersList == null)
 			return;
 
@@ -89,7 +83,7 @@ public class AppUsageCompositeTracker extends AppUsageTracker {
 	}
 
 	@Override
-	public void showDialog(Activity activity, String dialogName) {
+	public void showDialog(State activity, String dialogName) {
 		if (this.trackersList == null)
 			return;
 
@@ -101,7 +95,7 @@ public class AppUsageCompositeTracker extends AppUsageTracker {
 	}
 
 	@Override
-	public void hideDialog(Activity activity, String dialogName) {
+	public void hideDialog(State activity, String dialogName) {
 		if (this.trackersList == null)
 			return;
 

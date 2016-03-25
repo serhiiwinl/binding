@@ -9,6 +9,9 @@
             <directory>resources</directory>
         </resource>
     </resources>
+    <libs>
+        <lib>libs/admsAppLibrary.a</lib>
+    </libs>
     <frameworkPaths>
         <path>libs</path>
     </frameworkPaths>
