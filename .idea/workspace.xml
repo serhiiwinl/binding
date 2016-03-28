@@ -10,28 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b718638-a4c4-4398-85cd-2328fb612b72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appdynamics_runtime_4_2_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTracker.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTrackerInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/BaseAppDynamicsTracker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/BaseOtherLevelsTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/config/AppConfig.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/config/AppConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/robovm.xml" afterPath="$PROJECT_DIR$/ios/robovm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/appdynamic/ADEumInstrumentation.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/appdynamic/ADEumInstrumentation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSOtherLevelsTracker.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSOtherLevelsTracker.java" />
     </list>
     <ignored path="binding.iws" />
@@ -73,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSOtherLevelsTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,36 +73,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOSAppUsageTrackerInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTrackerInterface.java">
+      <file leaf-file-name="BaseOtherLevelsTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/BaseOtherLevelsTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseAppDynamicsTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/BaseAppDynamicsTracker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppDynamicsTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java">
+      <file leaf-file-name="IOSAppDynamicsTracker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.28815368">
+              <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OtherLevelsTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-              <folding>
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,46 +131,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOSAppDynamicsTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyViewController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyViewController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19210246">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/config/AppConfig.java">
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              <folding />
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="e#1042#1059#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -1851,7 +1832,7 @@
         <entry key="$USER_HOME$/RoboVMStudioProjects/robovm-business-app" value="7262957900000" />
         <entry key="$USER_HOME$/RoboVMStudioProjects/robovm-store-app" value="7262955225000" />
         <entry key="$PROJECT_DIR$/.." value="5832915840000" />
-        <entry key="$PROJECT_DIR$" value="7293187575000" />
+        <entry key="$PROJECT_DIR$" value="7293445313000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2230,8 +2211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/MainActivity.java" />
-        <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/Tracker.java" />
@@ -2244,7 +2223,6 @@
         <option value="$PROJECT_DIR$/ios/robovm.properties" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/AppDelegate.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/NotificationsHandler.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/AdapterIOS.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/TrackerConstants.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/PokerTournyCategory.java" />
@@ -2252,35 +2230,38 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/ActionButton.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/State.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/BaseTracker.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/BrandComponentFactory.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSBaseTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSAppUsageBaseTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSAppUsageTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/CommonInit.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/d.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/IOSAppUsageTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/appdynamic/ADEumInstrumentation.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/AppDynamicsTracker.java" />
         <option value="$PROJECT_DIR$/ios/robovm.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java" />
-        <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTrackerInterface.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/BaseAppDynamicsTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/BaseOtherLevelsTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" />
+        <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSOtherLevelsTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java" />
       </list>
     </option>
   </component>
@@ -2810,24 +2791,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="intermediates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2851,6 +2814,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2936,60 +2925,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2999,28 +2934,28 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.17606443" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mycompany.myapp.trackers" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mycompany.myapp.trackers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mycompany.myapp.trackers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ios/libs" />
       <recent name="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mycompany.myapp.trackers" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mycompany.myapp.trackers" />
-    </key>
   </component>
-  <component name="RunManager" selected="RoboVM iOS.iOS Device">
+  <component name="RunManager" selected="Android Application.android">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -3377,12 +3312,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253886" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26321244" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21968912" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46424872" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -3395,13 +3331,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3834197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498642" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3834197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3445,7 +3380,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3454,13 +3389,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/uikit/UIApplicationDelegateAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/foundation/NSBundle.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3563,24 +3491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#959#976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/robovm-build/logs/debug_2016-03-23-120015.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -3651,50 +3561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/OtherLevelsTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3719,14 +3585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3743,16 +3601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3766,36 +3614,7 @@
         <state vertical-scroll-proportion="0.14407684">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3816,38 +3635,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/AppDynamicsTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSAppUsageTrackerInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#971#988#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTrackerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#980#1116#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0588236">
+          <caret line="1515" column="12" selection-start-line="1515" selection-start-column="12" selection-end-line="1515" selection-end-column="12" />
+          <folding>
+            <marker date="1459160284000" expanded="true" signature="49:116191" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8004269">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#1042#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/otherlevels/BaseOtherLevelsTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3857,7 +3764,7 @@
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/otherlevels/IOSOtherLevelsTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3866,9 +3773,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19210246">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/appdynamics/BaseAppDynamicsTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/appdynamics/IOSAppDynamicsTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28815368">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3881,7 +3818,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17606443" />
               </list>
             </option>
           </splitter-proportions>
@@ -3893,7 +3830,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17606443" />
               </list>
             </option>
           </splitter-proportions>
@@ -3912,11 +3849,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android API 23 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17606443" />
               </list>
             </option>
           </splitter-proportions>
@@ -3924,12 +3861,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ios</last-edited>
+          <last-edited>android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.17606443" />
               </list>
             </option>
           </splitter-proportions>
@@ -3949,11 +3885,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>animated-vector-drawable-23.2.1</last-edited>
+          <last-edited>core.core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.17606443" />
               </list>
             </option>
           </splitter-proportions>

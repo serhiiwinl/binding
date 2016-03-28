@@ -21,7 +21,7 @@ public class MyViewController extends UIViewController {
     public void viewDidLoad() {
         super.viewDidLoad();
         //TODO:Factory get appUsageTracker
-        IOSOtherLevelsTracker.getInstance().onAttachToApp(this);
+        //IOSOtherLevelsTracker.getInstance().onAttachToApp(this);
     }
 
     @IBAction

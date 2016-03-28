@@ -1,7 +1,7 @@
 package com.mycompany.myapp.others;
 
 import com.mycompany.myapp.trackers.AppUsageTracker;
-import com.mycompany.myapp.trackers.otherlevels.OtherLevelsTracker;
+import com.mycompany.myapp.trackers.otherlevels.BaseOtherLevelsTracker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,11 +22,11 @@ public class BrandComponentFactory {
 //        List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
 //        trackersList.add(new CapptainTracker());
 //        trackersList.add(new AppsFlyerPokerTracker());
-////		trackersList.add(new AppDynamicsTracker());
-//        trackersList.add(new OtherLevelsTracker());
+////		trackersList.add(new BaseAppDynamicsTracker());
+//        trackersList.add(new BaseOtherLevelsTracker());
 //        return trackersList;
         List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
-        trackersList.add(new OtherLevelsTracker());
+        trackersList.add(new BaseOtherLevelsTracker());
         return trackersList;
     }
 }

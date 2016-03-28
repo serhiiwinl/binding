@@ -4,10 +4,10 @@ import com.mycompany.myapp.MyViewController;
 import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
 import com.mycompany.myapp.config.AppConfig;
-import com.mycompany.myapp.trackers.AppUsageTracker;
 import com.mycompany.myapp.trackers.IOSAppUsageTrackerInterface;
 import com.mycompany.myapp.trackers.PushNotification;
 import com.mycompany.myapp.trackers.TrackerConstants;
+
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
@@ -17,27 +17,17 @@ import static com.mycompany.myapp.bindings.otherlevels.OLOptions.developmentOpti
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class IOSOtherLevelsTracker extends AppUsageTracker implements IOSAppUsageTrackerInterface {
+public class IOSOtherLevelsTracker extends BaseOtherLevelsTracker implements IOSAppUsageTrackerInterface {
 
-    private MyViewController appController;
     private String deviceToken;
+    MyViewController appController = null;
     protected NSDictionary<?, ?> appLaunchOptions;
-    private static IOSOtherLevelsTracker instance;
-
-    private IOSOtherLevelsTracker () {}
-
-    public static IOSOtherLevelsTracker getInstance() {
-        if(instance == null)
-            instance = new IOSOtherLevelsTracker();
-        return instance;
-    }
 
     @Override
     public void onAttachToApp(Object app) {
         super.onAttachToApp(app);
-        if (AppConfig.otherLevelsAppKey == null || AppConfig.otherLevelsAppKey.equals("")) {
-            System.out.println("OtherLevels application key is null or empty");
-            return;
+        if(app != null && app instanceof  MyViewController) {
+            appController = (MyViewController) app;
         }
 
         OLOptions options = developmentOptions();
@@ -80,7 +70,7 @@ public class IOSOtherLevelsTracker extends AppUsageTracker implements IOSAppUsag
 //                if(apsDic.get("alert")!=null) {
 //                    message = apsDic.get("alert");
 //                }
-                appController.showPushNotification(new PushNotification(title,message));
+                appController.showPushNotification(new PushNotification(title, message));
             }
         }
     }

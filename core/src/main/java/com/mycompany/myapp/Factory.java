@@ -2,8 +2,8 @@ package com.mycompany.myapp;
 
 import com.mycompany.myapp.trackers.AppUsageCompositeTracker;
 import com.mycompany.myapp.trackers.AppUsageTracker;
-import com.mycompany.myapp.trackers.appdynamics.AppDynamicsTracker;
-import com.mycompany.myapp.trackers.otherlevels.OtherLevelsTracker;
+import com.mycompany.myapp.trackers.appdynamics.BaseAppDynamicsTracker;
+import com.mycompany.myapp.trackers.otherlevels.BaseOtherLevelsTracker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,15 +38,9 @@ public class Factory {
     }
 
     public List<AppUsageTracker> getAppUsageTrackersList() {
-//        List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
-//        trackersList.add(new CapptainTracker());
-//        trackersList.add(new AppsFlyerPokerTracker());
-////		trackersList.add(new AppDynamicsTracker());
-//        trackersList.add(new OtherLevelsTracker());
-//        return trackersList;
         List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
-        trackersList.add(new OtherLevelsTracker());
-        trackersList.add(new AppDynamicsTracker());
+        trackersList.add(new BaseOtherLevelsTracker());
+        trackersList.add(new BaseAppDynamicsTracker());
         return trackersList;
     }
 
