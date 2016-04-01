@@ -1,7 +1,6 @@
 package com.mycompany.myapp.others;
 
 import com.mycompany.myapp.trackers.AppUsageTracker;
-import com.mycompany.myapp.trackers.otherlevels.BaseOtherLevelsTracker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,23 +9,38 @@ import java.util.List;
  * Created by sliubetskyi on 3/24/16.
  */
 public class BrandComponentFactory {
+    private static Platform platform = null;
     private static BrandComponentFactory instance;
+    private List<AppUsageTracker> trackersList;
 
-    public static BrandComponentFactory getInstance() {
+    protected BrandComponentFactory () {
+
+    }
+
+    public synchronized static BrandComponentFactory getInstance() {
         if (instance == null)
             instance = new BrandComponentFactory();
         return instance;
     }
 
+    public static void init(Platform platform) {
+        BrandComponentFactory.platform = platform;
+    }
+
+    public static Platform getPlatform() {
+        return platform;
+    }
+
     public List<AppUsageTracker> getAppUsageTrackersList() {
-//        List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
-//        trackersList.add(new CapptainTracker());
-//        trackersList.add(new AppsFlyerPokerTracker());
-////		trackersList.add(new BaseAppDynamicsTracker());
-//        trackersList.add(new BaseOtherLevelsTracker());
-//        return trackersList;
-        List<AppUsageTracker> trackersList = new ArrayList<AppUsageTracker>();
-        trackersList.add(new BaseOtherLevelsTracker());
+        initTrackersList();
         return trackersList;
     }
+
+    protected void initTrackersList() {
+        if (trackersList == null) {
+            initTrackersList();
+        }
+        trackersList = new ArrayList<AppUsageTracker>();
+    }
+
 }

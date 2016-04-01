@@ -86,7 +86,7 @@ public class OtherLeveles extends NSObject {
      * @param eventType  The type of event (should be an explanative top level ie. overview, purchase, registered, opened)
      * @param eventLabel The event label (should be a more descriptive label ie. Purchased Magic Beans $5.99 package)
      */
-    @Method(selector = "registerEvent:label")
+    @Method(selector = "addEventHandler:label")
     public static native void registerEvent(String eventType, String eventLabel);
 
     /**
@@ -96,6 +96,6 @@ public class OtherLeveles extends NSObject {
      * @param eventLabel The event label (should be a more descriptive label ie. Purchased Magic Beans $5.99 package)
      * @param phash      The phash passed in separately with the event call
      */
-    @Method(selector = "registerEvent:label:phash")
+    @Method(selector = "addEventHandler:label:phash")
     public static native void registerEvent(String eventType, String eventLabel, String phash);
 }

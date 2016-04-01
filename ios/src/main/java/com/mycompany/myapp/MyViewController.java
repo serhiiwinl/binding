@@ -1,7 +1,6 @@
 package com.mycompany.myapp;
 
 import com.mycompany.myapp.trackers.PushNotification;
-import com.mycompany.myapp.trackers.otherlevels.IOSOtherLevelsTracker;
 import org.robovm.apple.foundation.NSArray;
 import org.robovm.apple.foundation.NSBundle;
 import org.robovm.apple.uikit.UILabel;
@@ -12,7 +11,6 @@ import org.robovm.objc.annotation.IBOutlet;
 
 @CustomClass("MyViewController")
 public class MyViewController extends UIViewController {
-    private static CounterStore counterStore = new CounterStore();
 
     @IBOutlet
     private UILabel label;
@@ -26,8 +24,7 @@ public class MyViewController extends UIViewController {
 
     @IBAction
     private void clicked() {
-        counterStore.add(1);
-        label.setText("Click Nr. " + counterStore.get());
+        label.setText("Click Nr. " + 1);
     }
 
     public void showPushNotification(PushNotification pushNotification) {

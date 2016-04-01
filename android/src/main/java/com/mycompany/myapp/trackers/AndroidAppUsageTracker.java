@@ -1,20 +1,23 @@
 package com.mycompany.myapp.trackers;
 
-import android.app.Application;
-
 /**
- * Created by sliubetskyi on 3/25/16.
+ * Created by sliubetskyi on 3/28/16.
  */
-public class AndroidAppUsageTracker extends AppUsageTracker {
-    @Override
-    public final void onAttachToApp(Object app) {
-        super.onAttachToApp(app);
-        if (app != null && app instanceof Application) {
-            onAttachToApp(app);
-        }
+public abstract class AndroidAppUsageTracker extends BaseAppUsageTracker implements AndroidAppUsageTrackerInterface {
+
+    private static volatile AndroidAppUsageTracker instance = null;
+
+    protected AndroidAppUsageTracker() {
     }
 
-    public void onAttachToApp(Application app) {
-
+    public static AndroidAppUsageTracker getInstance() {
+        if (instance == null) {
+            synchronized (AndroidAppUsageTracker.class) {
+                if (instance == null) {
+                    instance = new AndroidAppUsageCompositeTracker();
+                }
+            }
+        }
+        return instance;
     }
 }

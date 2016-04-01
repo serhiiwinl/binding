@@ -1,7 +1,13 @@
 package com.mycompany.myapp;
 
 
-import com.mycompany.myapp.trackers.otherlevels.IOSOtherLevelsTracker;
+import com.mycompany.myapp.experimental.DataEvent;
+import com.mycompany.myapp.experimental.Event;
+import com.mycompany.myapp.experimental.EventType;
+import com.mycompany.myapp.others.BrandComponentFactory;
+import com.mycompany.myapp.others.CommonInit;
+import com.mycompany.myapp.others.Platform;
+import com.mycompany.myapp.trackers.IOSAppUsageTracker;
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSError;
@@ -13,8 +19,8 @@ public class Main extends UIApplicationDelegateAdapter {
     public boolean didFinishLaunching(UIApplication application, UIApplicationLaunchOptions launchOptions) {
         initAll();
         if (launchOptions !=null) {
-            //IOSOtherLevelsTracker.getInstance().startWithApplicationLaunchOptions(launchOptions.getDictionary());
-            this.didReceiveRemoteNotification(application, launchOptions.getRemoteNotification());
+            IOSAppUsageTracker.getInstance().startWithApplicationLaunchOptions(launchOptions.getDictionary());
+            didReceiveRemoteNotification(application, launchOptions.getRemoteNotification());
         }
 
         application.registerForRemoteNotifications();
@@ -22,23 +28,22 @@ public class Main extends UIApplicationDelegateAdapter {
         application.registerUserNotificationSettings(new UIUserNotificationSettings(UIUserNotificationType.Sound, null));
         application.registerUserNotificationSettings(new UIUserNotificationSettings(UIUserNotificationType.Badge, null));
 
-
         return true;
     }
 
     @Override
     public void didRegisterForRemoteNotifications(UIApplication application, NSData deviceToken) {
-        //IOSOtherLevelsTracker.getInstance().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
+        IOSAppUsageTracker.getInstance().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
     }
 
     @Override
     public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
-        //IOSOtherLevelsTracker.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
+        IOSAppUsageTracker.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
     }
 
     @Override
     public void didFailToRegisterForRemoteNotifications(UIApplication application, NSError error) {
-        //IOSOtherLevelsTracker.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
+        IOSAppUsageTracker.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
     }
 
     public static void main(String[] args) {
@@ -48,7 +53,12 @@ public class Main extends UIApplicationDelegateAdapter {
     }
 
     private void initAll() {
-        Factory.getInstance().init(new Platform() {
+        Event ev = new DataEvent<Integer>("sdsdds", new EventType<Integer>(), 121);
+        Event ev2 = new DataEvent<String>("sdsdds", new EventType<String>(), "sdsd");
+        ev.eventType.getClass();
+        ev2.eventType.getClass();
+
+        BrandComponentFactory.getInstance().init(new Platform() {
             @Override
             public String getType() {
                 return Platform.IOS;

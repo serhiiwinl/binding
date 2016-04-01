@@ -4,29 +4,30 @@ import com.mycompany.myapp.MyViewController;
 import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
 import com.mycompany.myapp.config.AppConfig;
-import com.mycompany.myapp.trackers.IOSAppUsageTrackerInterface;
-import com.mycompany.myapp.trackers.PushNotification;
-import com.mycompany.myapp.trackers.TrackerConstants;
-
+import com.mycompany.myapp.trackers.*;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
-import org.robovm.apple.foundation.NSError;
 
 import static com.mycompany.myapp.bindings.otherlevels.OLOptions.developmentOptions;
 
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class IOSOtherLevelsTracker extends BaseOtherLevelsTracker implements IOSAppUsageTrackerInterface {
+public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
 
-    private String deviceToken;
-    MyViewController appController = null;
     protected NSDictionary<?, ?> appLaunchOptions;
+    MyViewController appController;
+    private String deviceToken;
 
     @Override
     public void onAttachToApp(Object app) {
         super.onAttachToApp(app);
-        if(app != null && app instanceof  MyViewController) {
+        if (AppConfig.otherLevelsAppKey == null || AppConfig.otherLevelsAppKey.equals("")) {
+            System.out.println("OtherLevels application key is null or empty");
+            return;
+        }
+        //TODO:
+        if (app != null && app instanceof MyViewController) {
             appController = (MyViewController) app;
         }
 
@@ -38,8 +39,8 @@ public class IOSOtherLevelsTracker extends BaseOtherLevelsTracker implements IOS
             OtherLeveles.startSessionWithLaunchOptions(this.appLaunchOptions, options);
         }
 
-        if (deviceToken != null && !deviceToken.equals("")) {
-            OtherLeveles.registerDevice(deviceToken);
+        if (this.deviceToken != null && !this.deviceToken.equals("")) {
+            OtherLeveles.registerDevice(this.deviceToken);
         }
     }
 
@@ -53,24 +54,25 @@ public class IOSOtherLevelsTracker extends BaseOtherLevelsTracker implements IOS
         this.deviceToken = deviceToken.description();
     }
 
-    @Override
-    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
-
-    }
+//    @Override
+//    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
+//
+//    }
 
     @Override
     public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {
-        if(userInfo != null && userInfo.get("aps")!= null) {
+        if (userInfo != null && userInfo.get("aps") != null) {
 
-            if(userInfo.get("aps") instanceof NSDictionary<?,?>) {
+            if (userInfo.get("aps") instanceof NSDictionary<?, ?>) {
                 String title = "title";
                 String message = "message";
-                NSDictionary<?,?> apsDic = (NSDictionary<?, ?>) userInfo.get("aps");
+                NSDictionary<?, ?> apsDic = (NSDictionary<?, ?>) userInfo.get("aps");
                 //TODO:
 //                if(apsDic.get("alert")!=null) {
 //                    message = apsDic.get("alert");
 //                }
-                appController.showPushNotification(new PushNotification(title, message));
+                if (appController != null)
+                    appController.showPushNotification(new PushNotification(title, message));
             }
         }
     }

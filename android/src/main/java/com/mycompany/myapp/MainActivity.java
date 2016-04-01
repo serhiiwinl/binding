@@ -5,15 +5,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.mycompany.myapp.others.BrandComponentFactory;
+import com.mycompany.myapp.others.CommonInit;
+import com.mycompany.myapp.others.Platform;
 
 public class MainActivity extends Activity {
-    private CounterStore counterStore = new CounterStore();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_my);
+
 
         initAll();
 
@@ -24,14 +27,14 @@ public class MainActivity extends Activity {
         counterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                counterStore.add(1);
-                counterTextView.setText("Click Nr. " + counterStore.get());
+
+                counterTextView.setText("Click Nr. " + 1);
             }
         });
     }
 
     private void initAll() {
-        Factory.getInstance().init(new Platform() {
+        BrandComponentFactory.getInstance().init(new Platform() {
             @Override
             public String getType() {
                 return Platform.AN;
