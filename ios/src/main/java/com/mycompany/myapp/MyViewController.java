@@ -1,6 +1,6 @@
 package com.mycompany.myapp;
 
-import com.mycompany.myapp.trackers.PushNotification;
+import com.mycompany.myapp.others.tracking.PushNotification;
 import org.robovm.apple.foundation.NSArray;
 import org.robovm.apple.foundation.NSBundle;
 import org.robovm.apple.uikit.UILabel;
