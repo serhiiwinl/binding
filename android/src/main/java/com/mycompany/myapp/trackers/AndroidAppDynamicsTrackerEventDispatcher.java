@@ -3,12 +3,13 @@ package com.mycompany.myapp.trackers;
 import android.app.Application;
 import com.appdynamics.eumagent.runtime.Instrumentation;
 import com.mycompany.myapp.config.AppConfig;
+
 import static com.mycompany.myapp.config.AppConfig.*;
 
 /**
  * Created by sliubetskyi on 3/25/16.
  */
-public class AndroidAppDynamicsTrackerEventDispatcher extends BaseAppUsageTracker {
+public class AndroidAppDynamicsTrackerEventDispatcher extends com.mycompany.myapp.trackers.impl.BaseAppUsageTracker {
 
     @Override
     public void start(Object data) {

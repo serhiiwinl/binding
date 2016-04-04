@@ -3,7 +3,7 @@ package com.mycompany.myapp.trackers;
 /**
  * Created by sliubetskyi on 3/28/16.
  */
-public abstract class AndroidAppUsageTracker extends BaseAppUsageTracker implements AndroidAppUsageTrackerInterface {
+public abstract class AndroidAppUsageTracker extends com.mycompany.myapp.trackers.impl.BaseAppUsageTracker implements AndroidAppUsageTrackerInterface {
 
     private static volatile AndroidAppUsageTracker instance = null;
 

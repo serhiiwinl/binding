@@ -33,11 +33,11 @@ public class AndroidBrandComponentFactory extends BrandComponentFactory {
     }
 
     protected void initAnTrackersList() {
-        if (anTrackersList == null) {
-            anTrackersList = new ArrayList<AndroidAppUsageTracker>();
-            anTrackersList.add(new AndroidOtherLevelsTracker());
-            getAppUsageTrackersList().addAll(anTrackersList);
-        }
+//        if (anTrackersList == null) {
+//            anTrackersList = new ArrayList<AndroidAppUsageTracker>();
+//            anTrackersList.add(new AndroidOtherLevelsTracker());
+//            //getAppUsageTrackersList().addAll(anTrackersList);
+//        }
     }
 
     @Override
