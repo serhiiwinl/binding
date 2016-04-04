@@ -1,4 +1,4 @@
-package com.mycompany.myapp.trackers;
+package com.mycompany.myapp.others;
 
 /**
  * Created by sliubetskyi on 3/23/16.

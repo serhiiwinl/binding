@@ -1,4 +1,4 @@
-package com.mycompany.myapp.trackers;
+package com.mycompany.myapp.trackers.impl;
 
 import com.mycompany.myapp.others.ActionButton;
 import com.mycompany.myapp.others.InTurnOption;
