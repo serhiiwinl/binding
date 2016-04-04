@@ -2,7 +2,7 @@ package com.mycompany.myapp.trackers.appdynamics;
 
 import com.mycompany.myapp.bindings.appdynamic.ADEumInstrumentation;
 import com.mycompany.myapp.config.AppConfig;
-import com.mycompany.myapp.trackers.BaseAppUsageTracker;
+import com.mycompany.myapp.trackers.impl.BaseAppUsageTracker;
 
 /**
  * Created by sliubetskyi on 3/24/16.

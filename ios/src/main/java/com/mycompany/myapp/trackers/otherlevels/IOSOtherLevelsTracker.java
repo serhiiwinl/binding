@@ -4,7 +4,9 @@ import com.mycompany.myapp.MyViewController;
 import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
 import com.mycompany.myapp.config.AppConfig;
+import com.mycompany.myapp.others.tracking.TrackerConstants;
 import com.mycompany.myapp.trackers.*;
+
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 
@@ -72,14 +74,14 @@ public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
 //                    message = apsDic.get("alert");
 //                }
                 if (appController != null)
-                    appController.showPushNotification(new PushNotification(title, message));
+                    appController.showPushNotification(new com.mycompany.myapp.others.tracking.PushNotification(title, message));
             }
         }
     }
 
     @Override
     public void trackLoginSuccess(String screenName, String accountId) {
-        OtherLeveles.registerEvent(TrackerConstants.LOGIN_SUCCESS_EVENT, "User screen name: " + screenName);
+        OtherLeveles.registerEvent(com.mycompany.myapp.others.tracking.TrackerConstants.LOGIN_SUCCESS_EVENT, "User screen name: " + screenName);
         OtherLeveles.setTagValueForTagName(TrackerConstants.LOGIN_SUCCESS_EVENT + "tag", "User screen name: " + screenName, "string");
     }
 

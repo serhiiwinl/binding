@@ -3,7 +3,7 @@ package com.mycompany.myapp.trackers;
 /**
  * Created by sliubetskyi on 3/28/16.
  */
-public abstract class IOSAppUsageTracker extends BaseAppUsageTracker implements IOSAppUsageTrackerInterface {
+public abstract class IOSAppUsageTracker extends com.mycompany.myapp.trackers.impl.BaseAppUsageTracker implements IOSAppUsageTrackerInterface {
 
     private static volatile IOSAppUsageTracker instance = null;
 
