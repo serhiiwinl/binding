@@ -8,7 +8,7 @@ import com.mycompany.myapp.others.State;
 /**
  * Created by sliubetskyi on 3/28/16.
  */
-public class BaseAppUsageTracker extends AppUsageTracker {
+public class AppUsageTrackerAdapter extends AppUsageTracker {
 
     @Override
     public void start(Object data) {

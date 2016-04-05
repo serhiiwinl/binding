@@ -2,25 +2,17 @@ package com.mycompany.myapp.others;
 
 import com.mycompany.myapp.trackers.TrackingList;
 import com.mycompany.myapp.trackers.impl.AppUsageTracker;
-import com.mycompany.myapp.trackers.concrete.ConcreteTracker3;
-import com.mycompany.myapp.trackers.concrete.ConcreteTracker5;
-import com.mycompany.myapp.tracking.events.IBaseApplicationEvents;
-import com.mycompany.myapp.tracking.events.ILoginEvents;
-import com.mycompany.myapp.tracking.events.ILogoutEvents;
-import com.mycompany.myapp.tracking.events.INavigationEvents;
-import com.mycompany.myapp.tracking.events.IPokerGamePlay;
-import com.mycompany.myapp.tracking.events.IUserActions;
+import com.mycompany.myapp.tracking.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by sliubetskyi on 3/24/16.
  */
 public class BrandComponentFactory {
+    public static final String otherLevelsAppKey = "80af66e3445682537e9f2709ffca2131";
+    public static final String appDynamicsKey = "EUM-AAB-AUA";
+    public static final String kAppDynamicCollectorUrl = "https://euem.itsfogo.com";
     private static Platform platform = null;
     private static BrandComponentFactory instance;
     private HashMap<Class<? extends Object>, List<? super AppUsageTracker>> trackersMap = new HashMap<>();
@@ -33,28 +25,33 @@ public class BrandComponentFactory {
     private List<IUserActions> userActions = new ArrayList<>();
 
     protected BrandComponentFactory() {
-        initTrackersList();
     }
 
-    public synchronized static BrandComponentFactory getInstance() {
+    public static BrandComponentFactory getInstance() {
         if (instance == null)
-            instance = new BrandComponentFactory();
+            synchronized (BrandComponentFactory.class) {
+                if (instance == null) {
+                    instance = new BrandComponentFactory();
+                    instance.init();
+                }
+            }
         return instance;
     }
 
-    public void init(Platform platform) {
-        BrandComponentFactory.platform = platform;
+    private void init() {
+        initTrackersList();
+    }
+
+    public static void init(BrandComponentFactory factoryImpl) {
+        instance = factoryImpl;
+        instance.init();
     }
 
     public static Platform getPlatform() {
         return platform;
     }
 
-//    public List<AppUsageTracker> getAppUsageTrackersList(Class<?> clazz) {
-//        return trackersMap.get(clazz);
-//    }
-
-    private <T extends AppUsageTracker> void addTracker(T tracker) {
+    protected void addConcreteTracker(AppUsageTracker tracker) {
         Class[] objects = tracker.getClass().getAnnotation(TrackingList.class).value();
         if (objects == null || objects.length == 0) {
             System.out.printf("list is not specified. Tracker will be listener for all events");
@@ -105,9 +102,11 @@ public class BrandComponentFactory {
         trackersMap.put(INavigationEvents.class, navigationEvents);
         trackersMap.put(IPokerGamePlay.class, pokerGamePlay);
         trackersMap.put(IUserActions.class, userActions);
+        addTrackers();
+    }
 
-        addTracker(new ConcreteTracker3());
-        addTracker(new ConcreteTracker5());
+    protected void addTrackers() {
+
     }
 
 }

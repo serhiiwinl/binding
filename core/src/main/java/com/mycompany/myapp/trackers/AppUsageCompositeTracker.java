@@ -7,15 +7,14 @@ import com.mycompany.myapp.others.InTurnOption;
 import com.mycompany.myapp.others.PokerTournyCategory;
 import com.mycompany.myapp.others.State;
 import com.mycompany.myapp.trackers.impl.AppUsageTracker;
-import com.mycompany.myapp.tracking.events.IBaseApplicationEvents;
-import com.mycompany.myapp.tracking.events.ILoginEvents;
-import com.mycompany.myapp.tracking.events.ILogoutEvents;
-import com.mycompany.myapp.tracking.events.INavigationEvents;
-import com.mycompany.myapp.tracking.events.IPokerGamePlay;
-import com.mycompany.myapp.tracking.events.IUserActions;
+import com.mycompany.myapp.tracking.IBaseApplicationEvents;
+import com.mycompany.myapp.tracking.ILoginEvents;
+import com.mycompany.myapp.tracking.ILogoutEvents;
+import com.mycompany.myapp.tracking.INavigationEvents;
+import com.mycompany.myapp.tracking.IPokerGamePlay;
+import com.mycompany.myapp.tracking.IUserActions;
 
 import java.util.Iterator;
-import java.util.List;
 
 public class AppUsageCompositeTracker extends AppUsageTracker {
 

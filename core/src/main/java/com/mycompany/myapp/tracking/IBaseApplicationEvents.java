@@ -1,4 +1,4 @@
-package com.mycompany.myapp.tracking.events;
+package com.mycompany.myapp.tracking;
 
 import com.mycompany.myapp.others.State;
 

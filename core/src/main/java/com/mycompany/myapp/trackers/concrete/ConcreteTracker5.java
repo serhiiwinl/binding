@@ -1,15 +1,15 @@
 package com.mycompany.myapp.trackers.concrete;
 
 import com.mycompany.myapp.trackers.TrackingList;
-import com.mycompany.myapp.trackers.impl.BaseAppUsageTracker;
-import com.mycompany.myapp.tracking.events.ILoginEvents;
-import com.mycompany.myapp.tracking.events.ILogoutEvents;
+import com.mycompany.myapp.trackers.impl.AppUsageTrackerAdapter;
+import com.mycompany.myapp.tracking.ILoginEvents;
+import com.mycompany.myapp.tracking.ILogoutEvents;
 
 /**
  * Created by sliubetskyi on 4/1/16.
  */
 @TrackingList(value = {ILoginEvents.class, ILogoutEvents.class})
-public class ConcreteTracker5 extends BaseAppUsageTracker {
+public class ConcreteTracker5 extends AppUsageTrackerAdapter {
 
     // Login success
     // @param screenName

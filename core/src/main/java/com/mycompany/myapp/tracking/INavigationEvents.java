@@ -1,4 +1,4 @@
-package com.mycompany.myapp.tracking.events;
+package com.mycompany.myapp.tracking;
 
 /**
  * Created by sliubetskyi on 4/1/16.
