@@ -1,6 +1,7 @@
 package com.mycompany.myapp;
 
 import com.mycompany.myapp.others.tracking.PushNotification;
+import com.mycompany.myapp.trackers.impl.AppUsageTracker;
 import org.robovm.apple.foundation.NSArray;
 import org.robovm.apple.foundation.NSBundle;
 import org.robovm.apple.uikit.UILabel;
@@ -18,8 +19,7 @@ public class MyViewController extends UIViewController {
     @Override
     public void viewDidLoad() {
         super.viewDidLoad();
-        //TODO:Factory get appUsageTracker
-        //IOSOtherLevelsTracker.getInstance().onAttachToApp(this);
+        AppUsageTracker.getInstance().onAttachToApp(this);
     }
 
     @IBAction

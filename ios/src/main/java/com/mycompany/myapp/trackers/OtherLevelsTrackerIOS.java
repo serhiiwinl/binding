@@ -1,21 +1,26 @@
-package com.mycompany.myapp.trackers.otherlevels;
+package com.mycompany.myapp.trackers;
 
+import com.mycompany.myapp.IUIApplicationDelegate;
 import com.mycompany.myapp.MyViewController;
 import com.mycompany.myapp.bindings.otherlevels.OLOptions;
 import com.mycompany.myapp.bindings.otherlevels.OtherLeveles;
-import com.mycompany.myapp.config.AppConfig;
+import com.mycompany.myapp.others.TestAppConfig;
 import com.mycompany.myapp.others.tracking.TrackerConstants;
-import com.mycompany.myapp.trackers.*;
 
+import com.mycompany.myapp.trackers.impl.AppUsageTrackerAdapter;
+import com.mycompany.myapp.tracking.IBaseApplicationEvents;
+import com.mycompany.myapp.tracking.ILoginEvents;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
+import org.robovm.apple.foundation.NSError;
 
 import static com.mycompany.myapp.bindings.otherlevels.OLOptions.developmentOptions;
 
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
+@TrackingList(value = {ILoginEvents.class, IBaseApplicationEvents.class})
+public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUIApplicationDelegate {
 
     protected NSDictionary<?, ?> appLaunchOptions;
     MyViewController appController;
@@ -24,7 +29,7 @@ public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
     @Override
     public void onAttachToApp(Object app) {
         super.onAttachToApp(app);
-        if (AppConfig.otherLevelsAppKey == null || AppConfig.otherLevelsAppKey.equals("")) {
+        if (TestAppConfig.otherLevelsAppKey == null || TestAppConfig.otherLevelsAppKey.equals("")) {
             System.out.println("OtherLevels application key is null or empty");
             return;
         }
@@ -35,7 +40,7 @@ public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
 
         OLOptions options = developmentOptions();
         options.setHandleApplicationEvents(false);
-        options.setAppKey(AppConfig.otherLevelsAppKey);
+        options.setAppKey(TestAppConfig.otherLevelsAppKey);
 
         if (this.appLaunchOptions != null) {
             OtherLeveles.startSessionWithLaunchOptions(this.appLaunchOptions, options);
@@ -56,10 +61,10 @@ public class IOSOtherLevelsTracker extends IOSBaseAppUsageTracker {
         this.deviceToken = deviceToken.description();
     }
 
-//    @Override
-//    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
-//
-//    }
+    @Override
+    public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
+
+    }
 
     @Override
     public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {

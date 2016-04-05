@@ -1,4 +1,4 @@
-package com.mycompany.myapp.trackers;
+package com.mycompany.myapp;
 
 import com.mycompany.myapp.MyViewController;
 import org.robovm.apple.foundation.NSData;
@@ -10,7 +10,7 @@ import java.util.HashMap;
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-public interface IOSAppUsageTrackerInterface extends AppUsageTrackerInterface {
+public interface IUIApplicationDelegate {
 
     public void startWithApplicationLaunchOptions(NSDictionary<?, ?> launchOptions);
 

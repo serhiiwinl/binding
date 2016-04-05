@@ -10,7 +10,7 @@
         </resource>
     </resources>
     <libs>
-        <lib>libs/admsAppLibrary.a</lib>
+        <lib>libs/ADMS_AppLibrary/admsAppLibrary.a</lib>
     </libs>
     <frameworkPaths>
         <path>libs</path>
