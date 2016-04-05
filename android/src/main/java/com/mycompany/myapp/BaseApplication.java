@@ -14,12 +14,7 @@ public class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        BrandComponentFactory.getInstance().init(new Platform() {
-            @Override
-            public String getType() {
-                return Platform.AN;
-            }
-        });
+        BrandComponentFactory.getInstance().init(new BrandComponentFactoryAndroid());
         AppUsageTracker.getInstance().onAttachToApp(this);
     }
 }

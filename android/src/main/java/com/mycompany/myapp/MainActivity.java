@@ -34,12 +34,6 @@ public class MainActivity extends Activity {
     }
 
     private void initAll() {
-        BrandComponentFactory.getInstance().init(new Platform() {
-            @Override
-            public String getType() {
-                return Platform.AN;
-            }
-        });
         new CommonInit();
     }
 }

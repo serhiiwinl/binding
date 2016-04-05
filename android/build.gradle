@@ -49,6 +49,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23+'
     compile 'com.appdynamics:appdynamics-runtime:4.+'
+    compile 'com.google.android.gms:play-services-gcm:7.8.0'
+    compile 'com.google.android.gms:play-services-location:7.8.0'
+    compile 'com.android.support:support-v4:23.0.1'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile project(':core')
 }
 
