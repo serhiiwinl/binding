@@ -9,6 +9,9 @@ import com.partypoker.poker.BaseApplication;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.tracking.TrackerConstants;
 import com.partypoker.poker.trackers.concrete.AppFlyerTracker;
+import com.partypoker.poker.tracking.IBaseApplicationEvents;
+import com.partypoker.poker.tracking.ILoginEvents;
+import com.partypoker.poker.tracking.IUserActions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,14 +19,15 @@ import java.util.Map;
 /**
  * Created by sliubetskyi on 4/6/16.
  */
+@TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
 public class AppFlyerTrackerAndroid extends AppFlyerTracker {
     private BaseApplication pokerApp;
 
     @Override
     public void onAttachToApp(Object app) {
         this.pokerApp = (BaseApplication) app;
-        AppsFlyerLib.setAppsFlyerKey(this.devkey);
-        AppsFlyerLib.registerConversionListener(this.pokerApp, new AppsFlyerConversionListener() {
+
+        AppsFlyerLib.getInstance().registerConversionListener(this.pokerApp, new AppsFlyerConversionListener() {
 
             @Override
             public void onInstallConversionFailure(String conversionData) {
@@ -59,6 +63,8 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
             public void onAttributionFailure(String conversionData) {
             }
         });
+
+        AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
     }
 
     @Override
@@ -67,36 +73,36 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
         if (this.getCachedPayload() != null)
             this.handlePayload(this.getCachedPayload());
 
-        AppsFlyerLib.sendTracking(this.pokerApp);
-
         Map<String, Object> extras = new HashMap<String, Object>();
         extras.put(TrackerConstants.APP_VERSION_EXTRA_KEY, appVersion);
 
-        AppsFlyerLib.trackEvent(this.pokerApp, TrackerConstants.APPLICATION_LAUNCH_EVENT, extras);
+        AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.APPLICATION_LAUNCH_EVENT, extras);
     }
 
     @Override
     public void trackLoginSuccess(String screenName, String accountId) {
-        Map<String, Object> extras = new HashMap<String, Object>();
+        Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.USER_ID_EXTRA_KEY, screenName);
         extras.put(TrackerConstants.ACCOUNT_ID_EXTRA_KEY,
                 Strings.isNullOrEmpty(accountId) ? TrackerConstants.UNDEFINED_EXTRA_VALUE : accountId);
 
-        AppsFlyerLib.trackEvent(this.pokerApp, TrackerConstants.LOGIN_SUCCESS_EVENT, extras);
+        AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.LOGIN_SUCCESS_EVENT, extras);
     }
 
     @Override
     public void trackRegistrationComplete(String userName) {
-        Map<String, Object> extras = new HashMap<String, Object>();
+        Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.USER_ID_EXTRA_KEY, userName);
 
-        AppsFlyerLib.trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_REGISTRATION_EVENT, extras);
+        AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_REGISTRATION_EVENT, extras);
     }
 
     @Override
     public void trackDeposit(String amount, String currency, String type) {
-        AppsFlyerLib.setCurrencyCode(currency);
-        AppsFlyerLib.sendTrackingWithEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_DEPOSIT_EVENT, amount);
+        AppsFlyerLib.getInstance().setCurrencyCode(currency);
+        Map<String, Object> extras = new HashMap<String, Object>();
+        extras.put(TrackerConstants.DEPOSIT_AMOUNT_EXTRA_KEY, amount);
+        AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_DEPOSIT_EVENT, extras);
     }
 
     private void setCachedPayload(String payload) {

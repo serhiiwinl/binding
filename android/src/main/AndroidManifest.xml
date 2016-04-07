@@ -36,7 +36,12 @@
         </receiver>
         <receiver android:name="com.otherlevels.android.sdk.ServiceReceiver"></receiver>
         <service android:name="com.otherlevels.android.sdk.OLService"></service>
-
+        <meta-data
+                android:name="CHANNEL"
+                android:value="standalone" />
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version"/>
         <receiver
                 android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
                 android:exported="true">
