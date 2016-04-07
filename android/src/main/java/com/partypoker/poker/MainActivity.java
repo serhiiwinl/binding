@@ -1,13 +1,11 @@
-package com.mycompany.myapp;
+package com.partypoker.poker;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import com.mycompany.myapp.others.BrandComponentFactory;
-import com.mycompany.myapp.others.CommonInit;
-import com.mycompany.myapp.others.Platform;
+import com.partypoker.poker.others.CommonInit;
 
 public class MainActivity extends Activity {
 

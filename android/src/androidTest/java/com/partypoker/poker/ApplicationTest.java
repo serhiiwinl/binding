@@ -1,4 +1,4 @@
-package com.mycompany.myapp;
+package com.partypoker.poker;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

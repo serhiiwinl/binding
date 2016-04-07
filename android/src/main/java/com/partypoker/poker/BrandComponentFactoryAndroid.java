@@ -1,7 +1,9 @@
-package com.mycompany.myapp;
+package com.partypoker.poker;
 
-import com.mycompany.myapp.others.BrandComponentFactory;
-import com.mycompany.myapp.trackers.OtherLevelsTrackerAndroid;
+import com.partypoker.poker.others.BrandComponentFactory;
+import com.partypoker.poker.trackers.AppDynamicsTrackerAndroid;
+import com.partypoker.poker.trackers.AppFlyerTrackerAndroid;
+import com.partypoker.poker.trackers.OtherLevelsTrackerAndroid;
 
 /**
  * Created by sliubetskyi on 3/28/16.
@@ -23,17 +25,11 @@ public class BrandComponentFactoryAndroid extends BrandComponentFactory {
         return instance;
     }
 
-    protected void initAnTrackersList() {
-//        if (anTrackersList == null) {
-//            anTrackersList = new ArrayList<AndroidAppUsageTracker>();
-//            anTrackersList.add(new OtherLevelsTrackerAndroid());
-//            //getAppUsageTrackersList().addAll(anTrackersList);
-//        }
-    }
-
     @Override
     protected void addTrackers() {
         super.addTrackers();
         addConcreteTracker(new OtherLevelsTrackerAndroid());
+        addConcreteTracker(new AppFlyerTrackerAndroid());
+        addConcreteTracker(new AppDynamicsTrackerAndroid());
     }
 }
