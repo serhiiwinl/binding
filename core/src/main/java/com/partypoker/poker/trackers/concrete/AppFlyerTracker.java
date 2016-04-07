@@ -10,7 +10,6 @@ import com.partypoker.poker.tracking.IUserActions;
 /**
  * Created by sliubetskyi on 4/6/16.
  */
-@TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
 public class AppFlyerTracker extends AppUsageTrackerAdapter {
     protected final String tag = "AppsFlyerPokerTracker";
     protected final String PAYLOAD_KEY = "AppsFlyerPayload";
