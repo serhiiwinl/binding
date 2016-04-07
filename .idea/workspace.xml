@@ -6,65 +6,21 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="WARN" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b718638-a4c4-4398-85cd-2328fb612b72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AF_Android_SDK_v2_3_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/guava_15_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/otherlevels_android_sdk.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/AppUsageConfigInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/CommonInit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTrackerAndroid.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/CommonInit.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/src/androidTest/java/com/mycompany/myapp/ApplicationTest.java" afterPath="$PROJECT_DIR$/android/src/androidTest/java/com/partypoker/poker/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BaseApplication.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/BrandComponentFactoryAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BrandComponentFactoryAndroid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTracker.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/ActionButton.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/ActionButton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/InTurnOption.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/InTurnOption.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/NotificationsHandler.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/NotificationsHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/Platform.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/Platform.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/PokerTournyCategory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/PokerTournyCategory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/State.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/tracking/PushNotification.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/tracking/PushNotification.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/tracking/TrackerConstants.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/tracking/TrackerConstants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/ICommonAppUsageTrackerInterface.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/TrackingList.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/TrackingList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/concrete/ConcreteTracker3.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/concrete/ConcreteTracker5.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker5.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/impl/AppUsageTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/impl/AppUsageTrackerAdapter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/IBaseApplicationEvents.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/ILoginEvents.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/ILoginEvents.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/ILogoutEvents.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/ILogoutEvents.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/INavigationEvents.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/INavigationEvents.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/IPokerGamePlay.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IPokerGamePlay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/IUserActions.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IUserActions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/BrandComponentFactoryIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/BrandComponentFactoryIOS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/CompositeUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/CompositeUIApplicationDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/IUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/IUIApplicationDelegate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/Main.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/MyViewController.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/PushNotificationView.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/PushNotificationView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/appdynamic/ADEumInstrumentation.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/otherlevels/OLOptions.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OLOptions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/bindings/otherlevels/OtherLeveles.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OtherLeveles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/AppDynamicsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/OtherLevelsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AF_Android_SDK_4_3_3.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/AF-Android-SDK-v2.3.1.17.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build.gradle" afterPath="$PROJECT_DIR$/android/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/robovm.properties" afterPath="$PROJECT_DIR$/ios/robovm.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java" />
     </list>
     <ignored path="binding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,18 +57,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppFlyerTrackerAndroid.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AppFlyerTrackerAndroid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.5635838">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1495#1511#0" expanded="true" />
-                <element signature="e#2480#2496#0" expanded="true" />
-                <element signature="e#2814#2830#0" expanded="true" />
-                <element signature="e#3289#3305#0" expanded="true" />
-                <element signature="e#4739#4755#0" expanded="true" />
+                <element signature="e#2719#2735#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,35 +74,64 @@
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10224439">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2198#2199#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <file leaf-file-name="OtherLevelsTrackerAndroid.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+              <folding>
+                <element signature="e#722#995#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBaseApplicationEvents.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppUsageCompositeTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackerConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/tracking/TrackerConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -160,13 +141,9 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
-                <element signature="e#1882#1883#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,19 +152,11 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.75">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Annotation.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-rt-android-sources.jar!/java/lang/annotation/Annotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="-3.4583333">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <folding>
+                <element signature="e#2177#2216#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,30 +165,10 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandComponentFactoryAndroid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BrandComponentFactoryAndroid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandComponentFactoryIOS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/BrandComponentFactoryIOS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -2326,11 +2275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/events/trackers/TrackingList.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/TrackingList.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/trackers/AppUsageCompositeTracker.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppUsageTracker.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers/IOSBrandComponentFactory.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/tracking/IUserActions.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/trackers/AndroidAppDynamicsTrackerEventDispatcher.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/mycompany/myapp/AndroidBrandComponentFactory.java" />
@@ -2375,8 +2319,13 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/CommonInit.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/mycompany/myapp/others/BrandComponentFactory.java" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java" />
+        <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -2437,7 +2386,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2972,10 +2922,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AF-Android-SDK-4.3.3.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2987,7 +2976,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17606443" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/AppsFlyerSampleApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="SearchEverywhereHistoryKey" value="TestAppConfig&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/core/src/main/java/com/mycompany/myapp/others/TestAppConfig.java" />
@@ -3377,7 +3366,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="23" width="1883" height="1057" extended-state="0" />
+    <frame x="37" y="23" width="1883" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3387,26 +3376,26 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2507772" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40829015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015544" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2134715" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25475284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3595855" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13989638" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22487047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35129532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498642" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3459,34 +3448,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java</url>
+          <line>72</line>
           <properties />
-          <option name="timeStamp" value="50" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java</url>
+          <line>84</line>
           <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="56" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="57" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="com.robovm.idea.running.RoboVmIOSConfigurationType">
@@ -3499,6 +3476,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/BrandComponentFactoryIOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3579,7 +3564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024711696">
           <caret line="16593" column="0" selection-start-line="16593" selection-start-column="0" selection-end-line="16593" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3587,17 +3571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#911#912#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3605,10 +3578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8148148">
           <caret line="181" column="16" selection-start-line="181" selection-start-column="16" selection-end-line="181" selection-end-column="16" />
-          <folding>
-            <element signature="e#5207#5208#0" expanded="true" />
-            <element signature="e#5258#5259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3621,9 +3590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="13" column="61" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#720#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3631,9 +3597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#285#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3641,10 +3604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.555555">
           <caret line="235" column="26" selection-start-line="235" selection-start-column="26" selection-end-line="235" selection-end-column="26" />
-          <folding>
-            <element signature="e#10997#10998#0" expanded="true" />
-            <element signature="e#11036#11037#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3652,7 +3611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3740,52 +3698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08004269">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="78" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#303#304#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3813,44 +3725,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/AF-Android-SDK-v2.3.1.17.jar!/com/appsflyer/AppsFlyerLib.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14563107">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/AppUsageConfigInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1495#1511#0" expanded="true" />
-            <element signature="e#2480#2496#0" expanded="true" />
-            <element signature="e#2814#2830#0" expanded="true" />
-            <element signature="e#3289#3305#0" expanded="true" />
-            <element signature="e#4739#4755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3886,16 +3765,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerIOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3908,10 +3802,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/tracking/TrackerConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.75">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="41" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -3919,23 +3839,61 @@
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10224439">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2198#2199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4583333">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding>
+            <element signature="e#2177#2216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="e#722#995#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppFlyerTrackerAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5635838">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2719#2735#0" expanded="true" />
           </folding>
         </state>
       </provider>
