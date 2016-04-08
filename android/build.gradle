@@ -6,6 +6,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:1.5.0'
         classpath 'com.appdynamics:appdynamics-gradle-plugin:4.+'
+        //classpath 'com.google.gms:google-services:1.5.0'
     }
 }
 
@@ -14,6 +15,7 @@ plugins {
 }
 apply plugin: 'com.android.application'
 apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
 apply plugin: 'adeum' // this line added for AppDynamics
 
 repositories {
@@ -47,13 +49,14 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:23+'
+    compile 'com.android.support:appcompat-v7:23.0.1'
     compile 'com.appdynamics:appdynamics-runtime:4.+'
     compile 'com.google.android.gms:play-services-gcm:7.8.0'
     compile 'com.google.android.gms:play-services-location:7.8.0'
+    compile 'com.google.android.gms:play-services-ads:7.8.0' //appsflyer
     compile 'com.android.support:support-v4:23.0.1'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
-    compile group: 'com.google.guava', name: 'guava', version: '15.0'
+    compile group: 'com.google.guava', name: 'guava', version: '18.0'
     compile project(':core')
 }
 

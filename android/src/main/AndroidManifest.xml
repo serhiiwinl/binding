@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.partypoker.poker">
+          package="com.partypoker.poker"
+          android:versionCode="40000"
+          android:versionName="4.0.0">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
@@ -24,24 +28,30 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <meta-data
-                android:name="CHANNEL"
-                android:value="standalone"/>
-        <receiver android:name="com.otherlevels.android.sdk.PushReceiver"
-                  android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                <category android:name="com.mycompany.myapp"/>
-            </intent-filter>
-        </receiver>
-        <receiver android:name="com.otherlevels.android.sdk.ServiceReceiver"></receiver>
-        <service android:name="com.otherlevels.android.sdk.OLService"></service>
-        <meta-data
-                android:name="CHANNEL"
-                android:value="standalone" />
+
         <meta-data
                 android:name="com.google.android.gms.version"
                 android:value="@integer/google_play_services_version"/>
+
+        <receiver
+                android:name="com.otherlevels.android.sdk.PushReceiver"
+                android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+
+                <category android:name="com.partypoker.poker"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.otherlevels.android.sdk.ServiceReceiver"/>
+
+        <service android:name="com.otherlevels.android.sdk.OLService">
+        </service>
+
+        <meta-data
+                android:name="CHANNEL"
+                android:value="standalone"/>
         <receiver
                 android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
                 android:exported="true">

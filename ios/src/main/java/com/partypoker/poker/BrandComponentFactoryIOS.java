@@ -14,6 +14,7 @@ public class BrandComponentFactoryIOS extends BrandComponentFactory {
 
     private static volatile BrandComponentFactoryIOS instance;
     private List<IUIApplicationDelegate> uiApplicationDelegates;
+    public static final String appleAppID = "id687740281";
 
     public static BrandComponentFactoryIOS getInstance() {
         if (instance == null) {

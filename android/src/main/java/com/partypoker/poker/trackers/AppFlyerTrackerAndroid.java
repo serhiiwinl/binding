@@ -72,7 +72,7 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
         // Handle payload, if it is present in user defaults
         if (this.getCachedPayload() != null)
             this.handlePayload(this.getCachedPayload());
-
+        AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
         Map<String, Object> extras = new HashMap<String, Object>();
         extras.put(TrackerConstants.APP_VERSION_EXTRA_KEY, appVersion);
 
