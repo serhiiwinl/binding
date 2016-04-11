@@ -70,7 +70,7 @@ public class AppsFlyerTrackerIOS extends AppFlyerTracker implements AppsFlyerTra
         System.out.println("onConversionDataRequestFailure with error: " + installData.toString());
         if (getCachedPayload() != null || getCachedPayload().isEmpty()) {
             //TODO:convertor expected
-            parseConversionData((Map<String, String>) installData);
+            parseConversionData((Map<String, String>) installData.asStringMap());
         }
     }
 
@@ -82,12 +82,10 @@ public class AppsFlyerTrackerIOS extends AppFlyerTracker implements AppsFlyerTra
 
     @Override
     public void onAppOpenAttribution(NSDictionary<?, ?> attributionData) {
-
     }
 
     @Override
     public void onAppOpenAttributionFailure(NSError error) {
-
     }
 
     @Override
