@@ -11,12 +11,12 @@
     </resources>
     <libs>
         <lib>libs/ADMS_AppLibrary/admsAppLibrary.a</lib>
-        <lib>libs/AppsFlyer/libAppsFlyerLib.a</lib>
     </libs>
     <frameworkPaths>
         <path>libs</path>
     </frameworkPaths>
     <frameworks>
+        <framework>AppsFlyer</framework>
         <framework>OtherLevels</framework>
         <framework>StoreKit</framework>
         <framework>AdSupport</framework>

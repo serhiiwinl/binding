@@ -20,7 +20,7 @@ import java.util.Map;
  * Created by sliubetskyi on 4/6/16.
  */
 @TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
-public class AppFlyerTrackerAndroid extends AppFlyerTracker {
+public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
     private BaseApplication pokerApp;
 
     @Override
@@ -39,20 +39,7 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
             public void onInstallConversionDataLoaded(Map<String, String> conversionData) {
                 Log.d(tag, "onInstallConversionDataLoaded");
 
-                if (getCachedPayload().isEmpty()) {
-
-                    String wmid = conversionData.get(CONVERSION_PARAM_NAME_WMID);
-
-                    Map<String, String> payload = new HashMap<String, String>();
-                    String payloadStr = "";
-                    if (!Strings.isNullOrEmpty(wmid)) {
-                        payload.put(WMID_KEY, wmid);
-                        payloadStr = WMID_KEY + "=" + wmid;
-                    }
-
-                    setCachedPayload(payloadStr);
-                    handlePayload(payload);
-                }
+                parseConversionData(conversionData);
             }
 
             @Override
@@ -67,13 +54,14 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
         AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
     }
 
+
     @Override
     public void trackApplicationLaunch(String appVersion, String appCapacity) {
         // Handle payload, if it is present in user defaults
         if (this.getCachedPayload() != null)
             this.handlePayload(this.getCachedPayload());
         AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
-        Map<String, Object> extras = new HashMap<String, Object>();
+        Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.APP_VERSION_EXTRA_KEY, appVersion);
 
         AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.APPLICATION_LAUNCH_EVENT, extras);
@@ -93,51 +81,33 @@ public class AppFlyerTrackerAndroid extends AppFlyerTracker {
     public void trackRegistrationComplete(String userName) {
         Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.USER_ID_EXTRA_KEY, userName);
-
         AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_REGISTRATION_EVENT, extras);
     }
 
     @Override
     public void trackDeposit(String amount, String currency, String type) {
         AppsFlyerLib.getInstance().setCurrencyCode(currency);
-        Map<String, Object> extras = new HashMap<String, Object>();
+        Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.DEPOSIT_AMOUNT_EXTRA_KEY, amount);
         AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_DEPOSIT_EVENT, extras);
     }
 
-    private void setCachedPayload(String payload) {
+
+
+    @Override
+    protected void setCachedPayload(String payload) {
         SharedPreferences.Editor editor = this.pokerApp.getSharedPreferences(PREFERENCES_NAME, 0).edit();
         editor.putString(PAYLOAD_KEY, payload);
-        editor.commit();
+        editor.apply();
     }
 
-    private Map<String, String> getCachedPayload() {
+    @Override
+    protected Map<String, String> getCachedPayload() {
         return this.parsePayload(this.pokerApp.getSharedPreferences(PREFERENCES_NAME, 0).getString(PAYLOAD_KEY, null));
     }
 
-    private void handlePayload(Map<String, String> payload) {
-        if (payload != null && !payload.isEmpty())
-            if (payload.containsKey(WMID_KEY)) {
-                String wmid = payload.get(WMID_KEY);
-
-                AppUsageConfigInterface config = this.pokerApp.getAppConfig();
-
-                if (!Strings.isNullOrEmpty(wmid))
-                    config.setWmID(wmid);
-            }
-    }
-
-    private Map<String, String> parsePayload(String payloadInfo) {
-        if (!Strings.isNullOrEmpty(payloadInfo)) {
-            Map<String, String> values = new HashMap<String, String>();
-
-            String[] parameters = payloadInfo.split(",");
-            for (String par : parameters) {
-                String[] v = par.split("=");
-                values.put(v[0], v[1]);
-            }
-            return values;
-        }
-        return new HashMap<String, String>();
+    @Override
+    protected AppUsageConfigInterface getAppConfig() {
+        return this.pokerApp.getAppConfig();
     }
 }

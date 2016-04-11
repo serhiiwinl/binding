@@ -2,7 +2,7 @@ package com.partypoker.poker;
 
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.AppDynamicsTrackerAndroid;
-import com.partypoker.poker.trackers.AppFlyerTrackerAndroid;
+import com.partypoker.poker.trackers.AppsFlyerTrackerAndroid;
 import com.partypoker.poker.trackers.OtherLevelsTrackerAndroid;
 
 /**
@@ -29,7 +29,7 @@ public class BrandComponentFactoryAndroid extends BrandComponentFactory {
     protected void addTrackers() {
         super.addTrackers();
         addConcreteTracker(new OtherLevelsTrackerAndroid());
-        addConcreteTracker(new AppFlyerTrackerAndroid());
+        addConcreteTracker(new AppsFlyerTrackerAndroid());
         addConcreteTracker(new AppDynamicsTrackerAndroid());
     }
 }

@@ -1,5 +1,6 @@
 package com.partypoker.poker;
 
+import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.tracking.PushNotification;
 import com.partypoker.poker.trackers.impl.AppUsageTracker;
 import org.robovm.apple.foundation.NSArray;
@@ -33,5 +34,9 @@ public class MyViewController extends UIViewController {
         pushView.setTitle(pushNotification.getTitle());
         pushView.setMessage(pushNotification.getMessage());
         this.getView().addSubview(pushView);
+    }
+
+    public AppUsageConfigInterface getAppConfig() {
+        return new AppUsageConfigInterface();
     }
 }
