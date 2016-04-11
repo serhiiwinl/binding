@@ -38,7 +38,6 @@ public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
             @Override
             public void onInstallConversionDataLoaded(Map<String, String> conversionData) {
                 Log.d(tag, "onInstallConversionDataLoaded");
-
                 parseConversionData(conversionData);
             }
 
@@ -91,8 +90,6 @@ public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
         extras.put(TrackerConstants.DEPOSIT_AMOUNT_EXTRA_KEY, amount);
         AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.SUCCESSFUL_DEPOSIT_EVENT, extras);
     }
-
-
 
     @Override
     protected void setCachedPayload(String payload) {

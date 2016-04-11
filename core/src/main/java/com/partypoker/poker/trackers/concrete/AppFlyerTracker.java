@@ -18,22 +18,22 @@ import java.util.Map;
  */
 @TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
 public abstract class AppFlyerTracker extends AppUsageTrackerAdapter {
+    protected static final String CONVERSION_PARAM_NAME_WMID = "af_sub1";
     protected final String tag = "AppsFlyerPokerTracker";
     protected final String PAYLOAD_KEY = "AppsFlyerPayload";
     protected final String PREFERENCES_NAME = "AppsFlyerPrefs";
     protected final String WMID_KEY = "WMID";
     protected String devkey;
     protected boolean isInitialized = false;
-    protected static final String CONVERSION_PARAM_NAME_WMID = "af_sub1";
 
     public AppFlyerTracker() {
-        if(isReadyForUse())
+        if (isReadyForUse())
             devkey = BrandComponentFactory.appsflyerDevKey;
     }
 
     @Override
     public boolean isReadyForUse() {
-        if(BrandComponentFactory.appsflyerDevKey == null || BrandComponentFactory.appsflyerDevKey.equals(""))
+        if (BrandComponentFactory.appsflyerDevKey == null || BrandComponentFactory.appsflyerDevKey.equals(""))
             return false;
         else
             return true;
@@ -84,8 +84,8 @@ public abstract class AppFlyerTracker extends AppUsageTrackerAdapter {
 
     protected abstract AppUsageConfigInterface getAppConfig();
 
-    protected abstract void setCachedPayload(String payload);
-
     protected abstract Map<String, String> getCachedPayload();
+
+    protected abstract void setCachedPayload(String payload);
 
 }
