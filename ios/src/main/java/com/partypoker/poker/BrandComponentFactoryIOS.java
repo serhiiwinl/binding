@@ -2,6 +2,7 @@ package com.partypoker.poker;
 
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.AppDynamicsTrackerIOS;
+import com.partypoker.poker.trackers.AppsFlyerTrackerIOS;
 import com.partypoker.poker.trackers.OtherLevelsTrackerIOS;
 
 import java.util.ArrayList;
@@ -40,8 +41,8 @@ public class BrandComponentFactoryIOS extends BrandComponentFactory {
 
     @Override
     protected void addTrackers() {
-        super.addTrackers();
         this.addConcreteTracker(new OtherLevelsTrackerIOS());
-        this.addConcreteTracker(new AppDynamicsTrackerIOS());
+        //this.addConcreteTracker(new AppDynamicsTrackerIOS());
+        this.addConcreteTracker(new AppsFlyerTrackerIOS());
     }
 }

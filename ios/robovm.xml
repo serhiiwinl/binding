@@ -11,12 +11,14 @@
     </resources>
     <libs>
         <lib>libs/ADMS_AppLibrary/admsAppLibrary.a</lib>
+        <lib>libs/AppsFlyer/libAppsFlyerLib.a</lib>
+        <lib>libs/GoogleAnalyticsServices/libAdIdAccess.a</lib>
+        <lib>libs/GoogleAnalyticsServices/libGoogleAnalyticsServices.a</lib>
     </libs>
     <frameworkPaths>
         <path>libs</path>
     </frameworkPaths>
     <frameworks>
-        <framework>AppsFlyer</framework>
         <framework>OtherLevels</framework>
         <framework>StoreKit</framework>
         <framework>AdSupport</framework>
@@ -32,8 +34,9 @@
         <framework>MediaPlayer</framework>
         <framework>MobileCoreServices</framework>
         <framework>QuartzCore</framework>
-        <framework>SystemConfiguration</framework>
         <framework>UIKit</framework>
         <framework>MessageUI</framework>
+        <framework>CoreData</framework>
+        <framework>SystemConfiguration</framework>
     </frameworks>
 </config>

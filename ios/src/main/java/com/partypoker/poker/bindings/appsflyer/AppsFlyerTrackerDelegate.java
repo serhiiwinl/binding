@@ -11,7 +11,7 @@ import org.robovm.rt.bro.annotation.Library;
 /**
  * Created by sliubetskyi on 4/8/16.
  */
-@Library(Library.INTERNAL)
+@NativeClass
 public interface AppsFlyerTrackerDelegate extends NSObjectProtocol {
 
     @Method(selector = "onConversionDataReceived:")

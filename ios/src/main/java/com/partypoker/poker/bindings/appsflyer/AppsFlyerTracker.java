@@ -11,7 +11,7 @@ import org.robovm.objc.annotation.Property;
 @NativeClass
 public class AppsFlyerTracker extends NSObject {
 
-    @Method(selector = "sharedTracker:")
+    @Property(selector = "sharedTracker")
     public static native AppsFlyerTracker sharedTracker();
 
     @Property(selector = "isDebug")

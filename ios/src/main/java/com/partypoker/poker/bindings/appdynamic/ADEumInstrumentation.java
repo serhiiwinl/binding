@@ -1,5 +1,6 @@
 package com.partypoker.poker.bindings.appdynamic;
 
+import org.robovm.objc.annotation.Method;
 import org.robovm.objc.annotation.NativeClass;
 import org.robovm.objc.annotation.Property;
 
@@ -9,10 +10,10 @@ import org.robovm.objc.annotation.Property;
 @NativeClass
 public class ADEumInstrumentation {
 
-    @Property(selector = "initWithKey:collectorUrl:")
+    @Method(selector = "initWithKey:collectorUrl:")
     public static native void initWithKey(String appKey, String collectorUrl);
 
-    @Property(selector = "initWithKey:")
+    @Method(selector = "initWithKey:")
     public static native void initWithKey(String appKey);
 
 }

@@ -1,14 +1,13 @@
 package com.partypoker.poker.trackers;
 
 import android.content.SharedPreferences;
-import android.util.Log;
 import com.appsflyer.AppsFlyerConversionListener;
 import com.appsflyer.AppsFlyerLib;
 import com.google.common.base.Strings;
 import com.partypoker.poker.BaseApplication;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.tracking.TrackerConstants;
-import com.partypoker.poker.trackers.concrete.AppFlyerTracker;
+import com.partypoker.poker.trackers.concrete.AppsFlyerTracker;
 import com.partypoker.poker.tracking.IBaseApplicationEvents;
 import com.partypoker.poker.tracking.ILoginEvents;
 import com.partypoker.poker.tracking.IUserActions;
@@ -20,25 +19,24 @@ import java.util.Map;
  * Created by sliubetskyi on 4/6/16.
  */
 @TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
-public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
+public class AppsFlyerTrackerAndroid extends AppsFlyerTracker {
     private BaseApplication pokerApp;
 
     @Override
     public void onAttachToApp(Object app) {
         this.pokerApp = (BaseApplication) app;
+        super.onAttachToApp(app);
 
         AppsFlyerLib.getInstance().registerConversionListener(this.pokerApp, new AppsFlyerConversionListener() {
 
             @Override
-            public void onInstallConversionFailure(String conversionData) {
-                Log.d(tag, "onInstallConversionFailure");
-                setCachedPayload("");
+            public void onInstallConversionFailure(String error) {
+                onDataRequestFailure(error);
             }
 
             @Override
             public void onInstallConversionDataLoaded(Map<String, String> conversionData) {
-                Log.d(tag, "onInstallConversionDataLoaded");
-                parseConversionData(conversionData);
+                onDataReceived(conversionData);
             }
 
             @Override
@@ -50,19 +48,14 @@ public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
             }
         });
 
-        AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
+        AppsFlyerLib.getInstance().startTracking(pokerApp, devKey);
     }
 
 
     @Override
     public void trackApplicationLaunch(String appVersion, String appCapacity) {
-        // Handle payload, if it is present in user defaults
-        if (this.getCachedPayload() != null)
-            this.handlePayload(this.getCachedPayload());
-        AppsFlyerLib.getInstance().startTracking(pokerApp, devkey);
         Map<String, Object> extras = new HashMap<>();
         extras.put(TrackerConstants.APP_VERSION_EXTRA_KEY, appVersion);
-
         AppsFlyerLib.getInstance().trackEvent(this.pokerApp, TrackerConstants.APPLICATION_LAUNCH_EVENT, extras);
     }
 
@@ -92,15 +85,15 @@ public class AppsFlyerTrackerAndroid extends AppFlyerTracker {
     }
 
     @Override
-    protected void setCachedPayload(String payload) {
+    protected void saveWmIdToCash(String wmId) {
         SharedPreferences.Editor editor = this.pokerApp.getSharedPreferences(PREFERENCES_NAME, 0).edit();
-        editor.putString(PAYLOAD_KEY, payload);
+        editor.putString(PAYLOAD_KEY, wmId);
         editor.apply();
     }
 
     @Override
-    protected Map<String, String> getCachedPayload() {
-        return this.parsePayload(this.pokerApp.getSharedPreferences(PREFERENCES_NAME, 0).getString(PAYLOAD_KEY, null));
+    protected String getCachedWmId() {
+        return this.pokerApp.getSharedPreferences(PREFERENCES_NAME, 0).getString(PAYLOAD_KEY, null);
     }
 
     @Override

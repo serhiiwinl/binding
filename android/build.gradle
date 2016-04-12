@@ -53,6 +53,7 @@ dependencies {
     compile 'com.appdynamics:appdynamics-runtime:4.+'
     compile 'com.google.android.gms:play-services-gcm:7.8.0'
     compile 'com.google.android.gms:play-services-location:7.8.0'
+    compile 'com.google.android.gms:play-services-analytics:7.8.0'
     compile 'com.google.android.gms:play-services-ads:7.8.0' //appsflyer
     compile 'com.android.support:support-v4:23.0.1'
     compile 'com.squareup.okhttp:okhttp:2.4.0'

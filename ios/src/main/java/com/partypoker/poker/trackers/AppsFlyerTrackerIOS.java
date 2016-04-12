@@ -3,11 +3,10 @@ package com.partypoker.poker.trackers;
 import com.google.common.base.Strings;
 import com.partypoker.poker.BrandComponentFactoryIOS;
 import com.partypoker.poker.MyViewController;
-import com.partypoker.poker.bindings.appsflyer.AppsFlyerTracker;
-import com.partypoker.poker.bindings.appsflyer.AppsFlyerTrackerDelegate;
+import com.partypoker.poker.bindings.appsflyer.AppsFlyerTrackerDelegateAdapter;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.BrandComponentFactory;
-import com.partypoker.poker.trackers.concrete.AppFlyerTracker;
+import com.partypoker.poker.trackers.concrete.AppsFlyerTracker;
 import com.partypoker.poker.tracking.IBaseApplicationEvents;
 import com.partypoker.poker.tracking.ILoginEvents;
 import com.partypoker.poker.tracking.IUserActions;
@@ -15,34 +14,41 @@ import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
 import org.robovm.apple.foundation.NSUserDefaults;
 
-import java.util.Map;
+import static com.partypoker.poker.bindings.appsflyer.AppsFlyerTracker.sharedTracker;
 
 /**
  * Created by sliubetskyi on 4/6/16.
  */
 @TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
-public class AppsFlyerTrackerIOS extends AppFlyerTracker implements AppsFlyerTrackerDelegate {
+public class AppsFlyerTrackerIOS extends AppsFlyerTracker {
 
     private MyViewController app;
 
     @Override
     public boolean isReadyForUse() {
-        if (!super.isReadyForUse() || Strings.isNullOrEmpty(BrandComponentFactoryIOS.appleAppID)) {
-            return false;
-        } else {
-            return true;
-        }
+        return (super.isReadyForUse() && !Strings.isNullOrEmpty(BrandComponentFactoryIOS.appleAppID));
     }
 
     @Override
     public void onAttachToApp(Object app) {
         this.app = (MyViewController) app;
+        super.onAttachToApp(app);
 //        if(debug) {
-            AppsFlyerTracker.sharedTracker().setIsDebug(true);
+        sharedTracker().setIsDebug(true);
 //        }
-        AppsFlyerTracker.sharedTracker().setAppsFlyerDevKey(BrandComponentFactory.appsflyerDevKey);
-        AppsFlyerTracker.sharedTracker().setAppleAppID(BrandComponentFactoryIOS.appleAppID);
-        AppsFlyerTracker.sharedTracker().setDelegate(this);
+        sharedTracker().setAppsFlyerDevKey(BrandComponentFactory.appsflyerDevKey);
+        sharedTracker().setAppleAppID(BrandComponentFactoryIOS.appleAppID);
+        sharedTracker().setDelegate(new AppsFlyerTrackerDelegateAdapter() {
+            @Override
+            public void onConversionDataReceived(NSDictionary<?, ?> installData) {
+                onDataReceived(installData.asStringMap());
+            }
+
+            @Override
+            public void onConversionDataRequestFailure(NSError error) {
+                onDataRequestFailure(error.toString());
+            }
+        });
     }
 
     @Override
@@ -66,41 +72,16 @@ public class AppsFlyerTrackerIOS extends AppFlyerTracker implements AppsFlyerTra
     }
 
     @Override
-    public void onConversionDataReceived(NSDictionary<?, ?> installData) {
-        System.out.println("onConversionDataRequestFailure with error: " + installData.toString());
-        if (getCachedPayload() != null || getCachedPayload().isEmpty()) {
-            //TODO:convertor expected
-            parseConversionData((Map<String, String>) installData.asStringMap());
-        }
-    }
-
-    @Override
-    public void onConversionDataRequestFailure(NSError error) {
-        System.out.println("onConversionDataRequestFailure with error: " + error.toString());
-        setCachedPayload("");
-    }
-
-    @Override
-    public void onAppOpenAttribution(NSDictionary<?, ?> attributionData) {
-    }
-
-    @Override
-    public void onAppOpenAttributionFailure(NSError error) {
-    }
-
-    @Override
     protected AppUsageConfigInterface getAppConfig() {
         return this.app.getAppConfig();
     }
 
-    @Override
-    protected void setCachedPayload(String payload) {
-        NSUserDefaults.getStandardUserDefaults().put(PAYLOAD_KEY, payload);
+    protected String getCachedWmId() {
+        return String.valueOf(NSUserDefaults.getStandardUserDefaults().get(PAYLOAD_KEY));
     }
 
     @Override
-    protected Map<String, String> getCachedPayload() {
-        //TODO:
-        return parsePayload(String.valueOf(NSUserDefaults.getStandardUserDefaults().get(PAYLOAD_KEY)));
+    protected void saveWmIdToCash(String payload) {
+        NSUserDefaults.getStandardUserDefaults().put(PAYLOAD_KEY, payload);
     }
 }

@@ -13,7 +13,7 @@ public class AppDynamicsTrackerIOS extends AppUsageTrackerAdapter {
 
     @Override
     public void onAttachToApp(Object app) {
-        //івів
-        ADEumInstrumentation.initWithKey(BrandComponentFactory.appDynamicsKey, BrandComponentFactory.kAppDynamicCollectorUrl);
+        //init
+        //ADEumInstrumentation.initWithKey(BrandComponentFactory.appDynamicsKey, BrandComponentFactory.kAppDynamicCollectorUrl);
     }
 }
