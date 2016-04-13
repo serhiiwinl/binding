@@ -10,7 +10,6 @@
         </resource>
     </resources>
     <libs>
-        <lib>libs/ADMS_AppLibrary/admsAppLibrary.a</lib>
         <lib>libs/AppsFlyer/libAppsFlyerLib.a</lib>
         <lib>libs/GoogleAnalyticsServices/libAdIdAccess.a</lib>
         <lib>libs/GoogleAnalyticsServices/libGoogleAnalyticsServices.a</lib>
@@ -19,6 +18,7 @@
         <path>libs</path>
     </frameworkPaths>
     <frameworks>
+        <framework>ADEUMInstrumentation</framework>
         <framework>OtherLevels</framework>
         <framework>StoreKit</framework>
         <framework>AdSupport</framework>

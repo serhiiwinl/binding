@@ -42,7 +42,7 @@ public class BrandComponentFactoryIOS extends BrandComponentFactory {
     @Override
     protected void addTrackers() {
         this.addConcreteTracker(new OtherLevelsTrackerIOS());
-        //this.addConcreteTracker(new AppDynamicsTrackerIOS());
+        this.addConcreteTracker(new AppDynamicsTrackerIOS());
         this.addConcreteTracker(new AppsFlyerTrackerIOS());
     }
 }
