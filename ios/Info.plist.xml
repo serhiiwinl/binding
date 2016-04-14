@@ -27,7 +27,7 @@
     <key>UIMainStoryboardFile</key>
     <string>Main</string>
     <key>MinimumOSVersion</key>
-    <string>8.0</string>
+    <string>7.0</string>
     <key>UIDeviceFamily</key>
     <array>
         <integer>1</integer>
@@ -36,6 +36,11 @@
     <key>UIRequiredDeviceCapabilities</key>
     <array>
         <string>armv7</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+        <string>remote-notification</string>
     </array>
     <key>UISupportedInterfaceOrientations</key>
     <array>
