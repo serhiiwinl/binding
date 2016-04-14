@@ -3,7 +3,7 @@ package com.partypoker.poker.trackers;
 import com.partypoker.poker.IUIApplicationDelegate;
 import com.partypoker.poker.MyViewController;
 import com.partypoker.poker.bindings.otherlevels.OLOptions;
-import com.partypoker.poker.bindings.otherlevels.OtherLeveles;
+import com.partypoker.poker.bindings.otherlevels.OtherLevels;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.tracking.TrackerConstants;
 import com.partypoker.poker.trackers.impl.AppUsageTrackerAdapter;
@@ -12,6 +12,7 @@ import com.partypoker.poker.tracking.ILoginEvents;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
+import org.robovm.apple.foundation.NSObject;
 
 import static com.partypoker.poker.bindings.otherlevels.OLOptions.developmentOptions;
 
@@ -42,11 +43,11 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
         options.setAppKey(BrandComponentFactory.otherLevelsAppKey);
 
         if (this.appLaunchOptions != null) {
-            OtherLeveles.startSessionWithLaunchOptions(this.appLaunchOptions, options);
+            OtherLevels.startSessionWithLaunchOptions(this.appLaunchOptions, options);
         }
 
         if (this.deviceToken != null && !this.deviceToken.equals("")) {
-            OtherLeveles.registerDevice(this.deviceToken);
+            OtherLevels.registerDevice(this.deviceToken);
         }
     }
 
@@ -58,6 +59,7 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
     @Override
     public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
         this.deviceToken = deviceToken.description();
+        OtherLevels.registerDevice(this.deviceToken);
     }
 
     @Override
@@ -85,8 +87,8 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
 
     @Override
     public void trackLoginSuccess(String screenName, String accountId) {
-        OtherLeveles.registerEvent(com.partypoker.poker.others.tracking.TrackerConstants.LOGIN_SUCCESS_EVENT, "User screen name: " + screenName);
-        OtherLeveles.setTagValueForTagName(TrackerConstants.LOGIN_SUCCESS_EVENT + "tag", "User screen name: " + screenName, "string");
+        OtherLevels.registerEvent(com.partypoker.poker.others.tracking.TrackerConstants.LOGIN_SUCCESS_EVENT, "User screen name: " + screenName);
+        OtherLevels.setTagValueForTagName(TrackerConstants.LOGIN_SUCCESS_EVENT + "tag", "User screen name: " + screenName, "string");
     }
 
 }

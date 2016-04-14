@@ -4,8 +4,12 @@ package com.partypoker.poker;
 import com.partypoker.poker.others.BrandComponentFactory;
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.foundation.NSData;
+import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
 import org.robovm.apple.uikit.*;
+import org.robovm.objc.Selector;
+import org.robovm.objc.annotation.Block;
+import org.robovm.objc.block.VoidBlock1;
 
 public class Main extends UIApplicationDelegateAdapter {
 
@@ -17,33 +21,48 @@ public class Main extends UIApplicationDelegateAdapter {
 
     @Override
     public boolean didFinishLaunching(UIApplication application, UIApplicationLaunchOptions launchOptions) {
+        System.out.println("didFinishLaunching");
         initAll();
         if (launchOptions != null) {
             CompositeUIApplicationDelegate.getInstance().startWithApplicationLaunchOptions(launchOptions.getDictionary());
             didReceiveRemoteNotification(application, launchOptions.getRemoteNotification());
         }
 
-        application.registerForRemoteNotifications();
-        application.registerUserNotificationSettings(new UIUserNotificationSettings(UIUserNotificationType.Alert, null));
-        application.registerUserNotificationSettings(new UIUserNotificationSettings(UIUserNotificationType.Sound, null));
-        application.registerUserNotificationSettings(new UIUserNotificationSettings(UIUserNotificationType.Badge, null));
+        if (application.respondsToSelector(Selector.register("registerUserNotificationSettings:"))) {
+            UIUserNotificationType types = UIUserNotificationType.with(UIUserNotificationType.Alert,
+                    UIUserNotificationType.Badge, UIUserNotificationType.Sound);
+            application.registerUserNotificationSettings(new UIUserNotificationSettings(types, null));
+        } else {
+            UIRemoteNotificationType types = UIRemoteNotificationType.with(UIRemoteNotificationType.Badge,
+                    UIRemoteNotificationType.Alert, UIRemoteNotificationType.Sound);
+            application.registerForRemoteNotificationTypes(types);
+        }
 
         return true;
     }
 
     @Override
+    public void didRegisterUserNotificationSettings(UIApplication application, UIUserNotificationSettings notificationSettings) {
+        System.out.println("didRegisterUserNotificationSettings");
+        application.registerForRemoteNotifications();
+    }
+
+    @Override
     public void didRegisterForRemoteNotifications(UIApplication application, NSData deviceToken) {
+        System.out.println("didRegisterForRemoteNotifications");
         CompositeUIApplicationDelegate.getInstance().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
     }
 
     @Override
-    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
-        CompositeUIApplicationDelegate.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
+    public void didFailToRegisterForRemoteNotifications(UIApplication application, NSError error) {
+        System.out.println("didFailToRegisterForRemoteNotifications");
+        CompositeUIApplicationDelegate.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
     }
 
     @Override
-    public void didFailToRegisterForRemoteNotifications(UIApplication application, NSError error) {
-        CompositeUIApplicationDelegate.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
+        System.out.println("didReceiveRemoteNotification");
+        CompositeUIApplicationDelegate.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
     }
 
     private void initAll() {

@@ -15,7 +15,7 @@ import org.robovm.objc.block.VoidBlock1;
  * Created by sliubetskyi on 3/21/16.
  */
 @NativeClass
-public class OtherLeveles extends NSObject {
+public class OtherLevels extends NSObject {
 
     @Method(selector = "startSessionWithLaunchOptions:andOLOptions:")
     public static native void startSessionWithLaunchOptions(NSDictionary<?, ?> launchOptions, OLOptions option);
