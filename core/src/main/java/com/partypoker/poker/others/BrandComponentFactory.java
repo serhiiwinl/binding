@@ -11,7 +11,8 @@ import java.util.*;
  * Created by sliubetskyi on 3/24/16.
  */
 public class BrandComponentFactory {
-    public static final String otherLevelsAppKey = "80af66e3445682537e9f2709ffca2131";
+    public static final String otherLevelsAppKey = "c1bb199e0a4cf211be84c37c4e181c66";
+    //public static final String otherLevelsAppKey = "80af66e3445682537e9f2709ffca2131";
     public static final String otherLevelsGsmSender = "799919854778";
     public static final String appDynamicsKey = "EUM-AAB-AUA";
     public static final String kAppDynamicCollectorUrl = "https://euem.itsfogo.com";
