@@ -13,6 +13,8 @@
         <lib>libs/AppsFlyer/libAppsFlyerLib.a</lib>
         <lib>libs/GoogleAnalyticsServices/libAdIdAccess.a</lib>
         <lib>libs/GoogleAnalyticsServices/libGoogleAnalyticsServices.a</lib>
+        <lib>libs/Engagement/EngagementReach/libreach.a</lib>
+        <lib>libs/Engagement/EngagementSDK/libengagement.a</lib>
     </libs>
     <frameworkPaths>
         <path>libs</path>

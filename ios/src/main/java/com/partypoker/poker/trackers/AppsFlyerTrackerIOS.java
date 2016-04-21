@@ -34,6 +34,7 @@ public class AppsFlyerTrackerIOS extends AppsFlyerTracker {
         this.app = (MyViewController) app;
         super.onAttachToApp(app);
 //        if(debug) {
+
         sharedTracker().setIsDebug(true);
 //        }
         sharedTracker().setAppsFlyerDevKey(BrandComponentFactory.appsflyerDevKey);

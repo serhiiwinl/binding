@@ -12,7 +12,6 @@ import com.partypoker.poker.tracking.ILoginEvents;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
-import org.robovm.apple.foundation.NSObject;
 
 import static com.partypoker.poker.bindings.otherlevels.OLOptions.developmentOptions;
 
@@ -22,7 +21,7 @@ import static com.partypoker.poker.bindings.otherlevels.OLOptions.developmentOpt
 @TrackingList(value = {ILoginEvents.class, IBaseApplicationEvents.class})
 public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUIApplicationDelegate {
 
-    protected NSDictionary<?, ?> appLaunchOptions;
+    protected NSDictionary<?, ?> appLaunchOptions = new NSDictionary<>();
     MyViewController appController;
     private String deviceToken;
 
@@ -37,14 +36,16 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
         if (app != null && app instanceof MyViewController) {
             appController = (MyViewController) app;
         }
-
+        //if dubug
         OLOptions options = developmentOptions();
+        //else
+        //OLOptions options = defaultOptions();
         options.setHandleApplicationEvents(false);
         options.setAppKey(BrandComponentFactory.otherLevelsAppKey);
 
-        if (this.appLaunchOptions != null) {
+        //if (this.appLaunchOptions != null) {
             OtherLevels.startSessionWithLaunchOptions(this.appLaunchOptions, options);
-        }
+        //}
 
         if (this.deviceToken != null && !this.deviceToken.equals("")) {
             OtherLevels.registerDevice(this.deviceToken);
@@ -69,16 +70,15 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
 
     @Override
     public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {
+		//TODO:
         if (userInfo != null && userInfo.get("aps") != null) {
-
             if (userInfo.get("aps") instanceof NSDictionary<?, ?>) {
-                String title = "title";
-                String message = "message";
                 NSDictionary<?, ?> apsDic = (NSDictionary<?, ?>) userInfo.get("aps");
-                //TODO:
-//                if(apsDic.get("alert")!=null) {
-//                    message = apsDic.get("alert");
-//                }
+                String title = "";
+                String message = "";
+                if (apsDic.get("alert") != null) {
+                    message = String.valueOf(apsDic.get("alert"));
+                }
                 if (appController != null)
                     appController.showPushNotification(new com.partypoker.poker.others.tracking.PushNotification(title, message));
             }
