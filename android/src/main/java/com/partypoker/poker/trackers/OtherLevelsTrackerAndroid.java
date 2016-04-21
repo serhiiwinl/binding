@@ -41,7 +41,7 @@ public class OtherLevelsTrackerAndroid extends AppUsageTrackerAdapter {
         // Configure initialisation options
         Options options = new Options();
         options.appKey = BrandComponentFactory.otherLevelsAppKey; // mandatory
-        options.gcmSenderId = BrandComponentFactoryAndroid.otherlevels_gcm_sender; //optional
+        options.gcmSenderId = BrandComponentFactoryAndroid.otherlevels_gcm_sender;
         options.disableAutoActivityTracking = true;
 
         // Initialize the library
