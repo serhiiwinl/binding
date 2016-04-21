@@ -13,7 +13,9 @@ import org.robovm.objc.annotation.Property;
  */
 @NativeClass
 public class AEPushMessage extends NSObject {
-    /** Message's identifier */
+    /**
+     * Message's identifier
+     */
     //@property(nonatomic, retain) NSString* messageId;
     @Property(selector = "messageId")
     public native String getMessageId();
@@ -21,29 +23,33 @@ public class AEPushMessage extends NSObject {
     @Property(selector = "messageId:")
     public native void setMessageId(String messageId);
 
-/** Reach values */
+    /**
+     * Reach values
+     */
     //@property(nonatomic, retain) NSDictionary* reachValues;
     @Property(selector = "reachValues")
-    public native NSDictionary<?,?> getReachValues();
+    public native NSDictionary<?, ?> getReachValues();
 
     @Property(selector = "reachValues:")
-    public native void setReachValues(NSDictionary<?,?> reachValues);
+    public native void setReachValues(NSDictionary<?, ?> reachValues);
 
-/** Message's payload */
+    /**
+     * Message's payload
+     */
     //@property(nonatomic, retain) NSDictionary* payload;
     @Property(selector = "payload")
-    public native NSDictionary<?,?> getPayload();
+    public native NSDictionary<?, ?> getPayload();
 
     @Property(selector = "payload:")
-    public native void setPayload(NSDictionary<?,?> reachValues);
+    public native void setPayload(NSDictionary<?, ?> reachValues);
 
-/**
- * Parse payload data.
- * @param payloadData in NSData format.
- * @return Parsing error.
- */
+    /**
+     * Parse payload data.
+     *
+     * @param payloadData in NSData format.
+     * @return Parsing error.
+     */
     //- (NSError*)parseJsonPayload:(NSData*)payloadData;
-
     @Method(selector = "parseJsonPayload")
     public native NSError parseJsonPayload(NSData payloadData);
 

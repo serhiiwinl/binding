@@ -9,6 +9,7 @@ import org.robovm.objc.annotation.NotImplemented;
  * Created by sliubetskyi on 4/12/16.
  */
 public class AppsFlyerTrackerDelegateAdapter extends NSObject implements AppsFlyerTrackerDelegate {
+
     @Override
     @NotImplemented("onConversionDataReceived:")
     public void onConversionDataReceived(NSDictionary<?, ?> installData) {
