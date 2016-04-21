@@ -17,9 +17,7 @@ public class OLOptions extends NSObject {
     public static native OLOptions defaultOptions();
 
     @Property(selector = "notificationCallback")
-    public native
-    @Block
-    OLNotificationBlock notificationCallback();
+    public native @Block OLNotificationBlock notificationCallback();
 
     @Property(selector = "appKey")
     public native String getAppKey();
