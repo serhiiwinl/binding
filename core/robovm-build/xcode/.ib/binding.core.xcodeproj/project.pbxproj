@@ -62,7 +62,7 @@
 							"SDKROOT" = "iphoneos";
 							"TARGETED_DEVICE_FAMILY" = "1,2";
 							"GCC_PRECOMPILE_PREFIX_HEADER" = "YES";
-							"GCC_PREFIX_HEADER" = "/Users/sliubetskyi/projects/roboVM/binding/core/robovm-build/xcode/.ib/Prefix.pch";
+							"GCC_PREFIX_HEADER" = "/Users/sliubetskyi/projects/roboVM/analytics-com/binding/core/robovm-build/xcode/.ib/Prefix.pch";
 						};
 					"name" = "Debug";
 				};
@@ -75,7 +75,7 @@
 							"SDKROOT" = "iphoneos";
 							"TARGETED_DEVICE_FAMILY" = "1,2";
 							"GCC_PRECOMPILE_PREFIX_HEADER" = "YES";
-							"GCC_PREFIX_HEADER" = "/Users/sliubetskyi/projects/roboVM/binding/core/robovm-build/xcode/.ib/Prefix.pch";
+							"GCC_PREFIX_HEADER" = "/Users/sliubetskyi/projects/roboVM/analytics-com/binding/core/robovm-build/xcode/.ib/Prefix.pch";
 						};
 					"name" = "Release";
 				};
