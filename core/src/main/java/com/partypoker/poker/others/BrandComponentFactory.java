@@ -13,10 +13,15 @@ import java.util.*;
 public class BrandComponentFactory {
     public static final String otherLevelsAppKey = "c1bb199e0a4cf211be84c37c4e181c66";
     //public static final String otherLevelsAppKey = "80af66e3445682537e9f2709ffca2131";
-    public static final String otherLevelsGsmSender = "799919854778";
+    public static final String gsmSender = "799919854778";
     public static final String appDynamicsKey = "EUM-AAB-AUA";
     public static final String kAppDynamicCollectorUrl = "https://euem.itsfogo.com";
     public static final String appsflyerDevKey = "Q4R8wDwV2Br3p7mtw9cb2F";
+
+    public static final String engagementEndpoint = "Poker-Preprod-Collection.device.mobileengagement.windows.net";
+    public static final String engagementSdkKey = "bc49dc15c54e7b04b8857a2b7d8ed01a";
+    public static final String engagementAppId = "nep000088";
+
     private static Platform platform = null;
     private static BrandComponentFactory instance;
     private HashMap<Class<? extends Object>, List<? super AppUsageTracker>> trackersMap = new HashMap<>();

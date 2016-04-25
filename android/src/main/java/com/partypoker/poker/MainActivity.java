@@ -15,13 +15,15 @@ import android.widget.Toast;
 import com.google.android.gms.tagmanager.TagManager;
 import com.otherlevels.android.sdk.OlAndroidLibrary;
 import com.otherlevels.android.sdk.internal.log.Logger;
+import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.CommonInit;
+import com.partypoker.poker.others.State;
 import com.partypoker.poker.trackers.impl.AppUsageTracker;
 import org.json.JSONObject;
 
 import java.util.Iterator;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements State {
 
     private static final String tag = MainActivity.class.getSimpleName();
     static final Integer pCodeLength = Integer.valueOf(5);
@@ -51,11 +53,11 @@ public class MainActivity extends Activity {
     }
 
 
-
     @Override
     protected void onResume() {
         super.onResume();
         getMyApplication().setCurrentActivity(this);
+        AppUsageTracker.getInstance().startActivity(this);
     }
 
     @Override
