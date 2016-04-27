@@ -1,10 +1,12 @@
 package com.partypoker.poker.trackers;
 
+import android.app.Activity;
 import android.content.SharedPreferences;
 import com.appsflyer.AppsFlyerConversionListener;
 import com.appsflyer.AppsFlyerLib;
 import com.google.common.base.Strings;
 import com.partypoker.poker.BaseApplication;
+import com.partypoker.poker.application.IAppCallbacks;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.tracking.TrackerConstants;
 import com.partypoker.poker.trackers.concrete.AppsFlyerTracker;
@@ -18,14 +20,15 @@ import java.util.Map;
 /**
  * Created by sliubetskyi on 4/6/16.
  */
-@TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
-public class AppsFlyerTrackerAndroid extends AppsFlyerTracker {
+@TrackingList(value = {ILoginEvents.class, IUserActions.class})
+public class AppsFlyerTrackerAndroid extends AppsFlyerTracker implements IAppCallbacks {
     private BaseApplication pokerApp;
 
     @Override
-    public void onAttachToApp(Object app) {
-        this.pokerApp = (BaseApplication) app;
-        super.onAttachToApp(app);
+    public void onCreate(BaseApplication app) {
+        this.pokerApp = app;
+
+        handleWmId(getCachedWmId());
 
         AppsFlyerLib.getInstance().registerConversionListener(this.pokerApp, new AppsFlyerConversionListener() {
 
@@ -50,7 +53,6 @@ public class AppsFlyerTrackerAndroid extends AppsFlyerTracker {
 
         AppsFlyerLib.getInstance().startTracking(pokerApp, devKey);
     }
-
 
     @Override
     public void trackApplicationLaunch(String appVersion, String appCapacity) {
@@ -100,4 +102,5 @@ public class AppsFlyerTrackerAndroid extends AppsFlyerTracker {
     protected AppUsageConfigInterface getAppConfig() {
         return this.pokerApp.getAppConfig();
     }
+
 }

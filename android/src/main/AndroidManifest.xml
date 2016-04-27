@@ -28,7 +28,7 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme" tools:ignore="UnusedAttribute">
         <activity
-                android:name="com.partypoker.poker.MainActivity"
+                android:name=".activities.MainActivity"
                 android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -41,7 +41,7 @@
 
         <!--OtherLevels-->
         <receiver
-                android:name=".GcmPushReceiver"
+                android:name=".trackers.notifications.GcmPushReceiver"
                 android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>

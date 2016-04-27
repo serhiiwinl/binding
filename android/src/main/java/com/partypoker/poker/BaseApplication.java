@@ -1,7 +1,9 @@
 package com.partypoker.poker;
 
-import android.app.Activity;
 import android.app.Application;
+import com.microsoft.azure.engagement.EngagementAgentUtils;
+import com.partypoker.poker.activities.MainActivity;
+import com.partypoker.poker.factories.BrandComponentFactoryAndroid;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.impl.AppUsageTracker;
@@ -19,9 +21,12 @@ public class BaseApplication extends Application {
 
     @Override
     public void onCreate() {
+        //TODO:
+        if (EngagementAgentUtils.isInDedicatedEngagementProcess(this))
+            return;
         super.onCreate();
-        BrandComponentFactory.getInstance().init(new BrandComponentFactoryAndroid());
-        AppUsageTracker.getInstance().onAttachToApp(this);
+        BrandComponentFactory.getInstance().init(BrandComponentFactoryAndroid.getInstance());
+        BrandComponentFactory.getInstance().getAppUsageTracker().onAttachToApp(this);
     }
 
     public AppUsageConfigInterface getAppConfig() {
