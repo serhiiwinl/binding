@@ -27,6 +27,8 @@ public class BaseApplication extends Application {
         super.onCreate();
         BrandComponentFactory.getInstance().init(BrandComponentFactoryAndroid.getInstance());
         BrandComponentFactory.getInstance().getAppUsageTracker().onAttachToApp(this);
+        //TODO:
+        BrandComponentFactory.getInstance().getAppUsageTracker().onConfigLoaded(new Config());
     }
 
     public AppUsageConfigInterface getAppConfig() {

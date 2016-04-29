@@ -1,0 +1,3 @@
+TASK com.partypoker.poker id=6
+  ACTIVITY com.partypoker.poker/.MainActivity 5366facc pid=1459
+    Failure while dumping the activity: java.io.IOException: Timeout

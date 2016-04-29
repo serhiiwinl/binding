@@ -8,7 +8,7 @@
     <!--Engagement-->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
-    <!--Expeted user approve on api >= 23-->
+    <!--TODO: Expeted user approve on api >= 23-->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <!-- GCM required -->
@@ -28,6 +28,7 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme" tools:ignore="UnusedAttribute">
         <activity
+                android:launchMode="singleInstance"
                 android:name=".activities.MainActivity"
                 android:label="@string/app_name">
             <intent-filter>
@@ -40,16 +41,16 @@
                 android:value="@integer/google_play_services_version"/>
 
         <!--OtherLevels-->
-        <receiver
-                android:name=".trackers.notifications.GcmPushReceiver"
-                android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+        <!--<receiver-->
+                <!--android:name=".trackers.notifications.GcmPushReceiver"-->
+                <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION"/>-->
+                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE"/>-->
 
-                <category android:name="com.partypoker.poker"/>
-            </intent-filter>
-        </receiver>
+                <!--<category android:name="com.partypoker.poker"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
         <receiver android:name="com.otherlevels.android.sdk.ServiceReceiver"/>
         <service android:name="com.otherlevels.android.sdk.OLService"/>
 
@@ -70,14 +71,8 @@
         <!--Engagement-->
         <meta-data android:name="engagement:reach:notification:icon" android:value="ic_grade_white_48dp"/>
         <meta-data android:name="engagement:log:test" android:value="true"/>
+        <meta-data android:name="engagement:gcm:sender" android:value="236792967111\n" />
 
-
-        <receiver android:name="com.microsoft.azure.engagement.gcm.EngagementGCMEnabler"
-                  android:exported="false">
-            <intent-filter>
-                <action android:name="com.microsoft.azure.engagement.intent.action.APPID_GOT"/>
-            </intent-filter>
-        </receiver>
 
         <activity android:name="com.microsoft.azure.engagement.reach.activity.EngagementTextAnnouncementActivity"
                   android:theme="@android:style/Theme.Light">
@@ -95,6 +90,7 @@
                 <data android:mimeType="text/html"/>
             </intent-filter>
         </activity>
+
         <!--<activity android:name="com.microsoft.azure.engagement.reach.activity.EngagementPollActivity"-->
         <!--android:theme="@android:style/Theme.Light">-->
         <!--<intent-filter>-->

@@ -6,50 +6,52 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b718638-a4c4-4398-85cd-2328fb612b72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-hdpi/ic_grade_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-mdpi/ic_grade_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xhdpi/ic_grade_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxhdpi/ic_grade_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable-xxxhdpi/ic_grade_white_48dp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable/engagement_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ios_ios.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mobile_engagement_4_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/drawable/engagement_content_title.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_button_bar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_content_title.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_loading.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_notification_area.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_notification_overlay.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_poll.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_poll_choice.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_poll_question.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_text_announcement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/src/main/res/layout/engagement_web_announcement.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/ConcreteTracker5.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_7_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_7_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/iOS_Device.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/iOS_Device.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/robovm.xml" afterPath="$PROJECT_DIR$/ios/robovm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
     </list>
     <ignored path="binding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +75,20 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="binding" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -82,75 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BrandComponentFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EngagementTrackerAndroid.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.375">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBaseApplicationEvents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EngagementTrackerIOS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -160,18 +111,81 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppsFlyerTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java">
+      <file leaf-file-name="EngagementTrackerAndroid.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3625498">
+              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtherLevelsTrackerIOS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositeUIApplicationDelegate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUIApplicationDelegate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robovm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/robovm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandComponentFactoryIOS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <element signature="e#3529#3530#0" expanded="true" />
+                <element signature="e#3603#3604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,6 +243,11 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'binding'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the components produced by root project 'binding'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1009,6 +1028,11 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':android'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/android" />
                 <option name="name" value="buildNeeded" />
@@ -1608,6 +1632,11 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':core'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/core" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/core" />
                 <option name="name" value="buildNeeded" />
@@ -1744,6 +1773,11 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ios" />
                 <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':ios'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/ios" />
+                <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
@@ -1898,7 +1932,7 @@
         <entry key="$USER_HOME$/RoboVMStudioProjects/robovm-business-app" value="7262957900000" />
         <entry key="$USER_HOME$/RoboVMStudioProjects/robovm-store-app" value="7262955225000" />
         <entry key="$PROJECT_DIR$/.." value="5832915840000" />
-        <entry key="$PROJECT_DIR$" value="7302924644000" />
+        <entry key="$PROJECT_DIR$" value="7303870837000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1939,6 +1973,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$MODULE_DIR$/libs/AF-Android-SDK-4.3.3.jar" />
+                            <option value="$MODULE_DIR$/libs/mobile-engagement-4.2.0.jar" />
                             <option value="$MODULE_DIR$/libs/otherlevels-android-sdk.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.5.0/c09c2bb916e2ae3d77da707f8b8ede15596603de/gradle-1.5.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/1.5.0/ca6476d93e374e70d0b7ca45ddc86151da840aa6/gradle-1.5.0.jar" />
@@ -2165,119 +2200,119 @@
               <option name="name" value="core" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/base-services-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/messaging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/sonar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/ant-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/ant-launcher-1.9.3.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-base-services-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-base-services-groovy-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-cli-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-core-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-docs-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-launcher-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-messaging-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-model-core-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-model-groovy-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-native-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-open-api-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-resources-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-tooling-api-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-ui-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/gradle-wrapper-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/groovy-all-2.4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-announce-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-antlr-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-build-comparison-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-build-init-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-code-quality-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-dependency-management-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-diagnostics-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-ear-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-ide-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-ide-native-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-ivy-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-jacoco-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-javascript-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-jetty-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-language-groovy-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-language-java-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-language-jvm-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-language-native-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-language-scala-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-maven-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-osgi-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-platform-base-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-platform-jvm-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-platform-native-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-platform-play-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-plugin-development-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-plugin-use-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-plugins-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-publish-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-reporting-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-resources-http-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-resources-s3-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-resources-sftp-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-scala-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-signing-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-sonar-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-test-kit-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-testing-native-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/gradle-tooling-api-builders-2.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.9-all/1aw2ic01pldw5fkvoq6t1fsz4/gradle-2.9/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/dependency-management" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/language-scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/platform-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/resources-sftp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/sonar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-base-services-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-base-services-groovy-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-cli-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-core-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-docs-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-launcher-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-messaging-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-model-core-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-model-groovy-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-native-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-open-api-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-resources-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-tooling-api-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-ui-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/gradle-wrapper-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/groovy-all-2.4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-announce-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-antlr-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-build-comparison-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-build-init-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-code-quality-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-dependency-management-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-diagnostics-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-ear-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-ide-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-ide-native-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-ivy-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-jacoco-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-javascript-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-jetty-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-language-groovy-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-language-java-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-language-jvm-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-language-native-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-language-scala-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-maven-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-osgi-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-platform-base-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-platform-jvm-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-platform-native-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-platform-play-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-plugin-development-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-plugin-use-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-plugins-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-publish-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-reporting-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-resources-http-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-resources-s3-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-resources-sftp-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-scala-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-signing-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-sonar-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-test-kit-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-testing-native-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/gradle-tooling-api-builders-2.10.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.10-all/a4w5fzrkeut1ox71xslb49gst/gradle-2.10/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -2294,57 +2329,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/analytics/GAI.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/GGLContext.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/apis/google/GGLConfiguration.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/apis/google/GGLErrorCode.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/apis/google/GGLContext.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/GGLContextAnalyticsExtensions.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/GGLContextAnalytics.java" />
-        <option value="$PROJECT_DIR$/ios/build.gradle" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppFlyerTracker.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/BrandComponentFactoryIOS.java" />
-        <option value="$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-rt-android-sources.jar!/java/lang/String.java" />
-        <option value="$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/uikit/UIApplicationDelegateAdapter.class" />
-        <option value="$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/uikit/UIRemoteNotificationType.class" />
-        <option value="$PROJECT_DIR$/ios/Info.plist.xml" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OtherLeveles.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OtherLevels.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/IAppLifecycleCallbacks.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/CustomeEngagementNotifier.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/CustomEngagementNotifier.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/IAppCallbacks.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/CompositeAppCallbacks.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmService.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmServiceHandler.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BrandComponentFactoryAndroid.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmServiceHandlerTest.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/captures/SystemInfo_2016.04.19_12.02.12.txt" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
-        <option value="$PROJECT_DIR$/ios/robovm.xml" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTracker.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OLOptions.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModule.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEPushMessage.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModuleAdapter.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegateAdapter.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTracker.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegate.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
+        <option value="$PROJECT_DIR$/core/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationActions.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/Config.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNativePushAgent.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNativePushAgentWraper.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/engagement/adm/package-info.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/engagement/EngagementAgent.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java" />
         <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEIdfaProvider.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/AEIdfaProvider.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/ios/robovm.xml" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" />
       </list>
     </option>
   </component>
@@ -2359,9 +2394,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="26" />
+    <option name="x" value="35" />
     <option name="y" value="23" />
-    <option name="width" value="1884" />
+    <option name="width" value="1885" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -2408,6 +2443,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -2437,7 +2473,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="ios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2451,135 +2487,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partypoker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partypoker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="poker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trackers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="ios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2597,7 +2505,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images.xcassets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Base.lproj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2615,7 +2585,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
+              <option name="myItemId" value="ios" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2623,29 +2593,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile-engagement-4.2.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <option name="myItemId" value="Engagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EngagementSDK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Engagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EngagementReach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="org.robovm.idea.config.RoboVmGlobalConfig" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="047f7bc82523c47d" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_22_x86" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17606443" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../trunk_v4" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/ios/src/main/java/com/mycompany/myapp/trackers" />
+    <property name="last_opened_file_path" value="/usr/bin/git" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="EngagementAgentUtils&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/EngagementAgentUtils.class&#10;ADEumInstrumentation&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation_interfaces.h&#10;AppsFlyerTracker&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/AppsFlyer/AppsFlyerTracker.h&#10;GMCServiceHandler&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/internal/handlers/GMCServiceHandler.class&#10;GcMPu&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java&#10;REceiv&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/GcmPushReceiver.class&#10;CapptainReachAgent&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachAgent.java&#10;CapptainDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainDefaultNotifier.java&#10;CapptainService&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainReachReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachReceiver.java&#10;CapptainS&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMReceiver.java&#10;CapptainUti&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/utils/CapptainUtils.java&#10;CapptainU&#9;PSI&#9;JAVA://com.ubikod.capptain.android.sdk.CapptainAgentUtils&#10;CapptainGCM&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMEnabler.java&#10;Andro&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;OtherLevels&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java&#10;BrandC&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java&#10;OtherLe&#9;PSI&#9;JAVA://com.partypoker.poker.trackers.OtherLevelsTrackerAndroid&#10;Other&#9;PSI&#9;JAVA://com.partypoker.poker.bindings.otherlevels.OtherLevels&#10;Main&#9;PSI&#9;JAVA://com.partypoker.poker.MainActivity&#10;MyViewController&#9;PSI&#9;JAVA://com.partypoker.poker.MyViewController&#10;TAGContainerCallbackRefreshType&#9;PSI&#9;JAVA://org.robovm.pods.google.tagmanager.TAGContainerCallbackRefreshType&#10;ANdroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/android/src/main/AndroidManifest.xml&#10;TestAppConfig&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/core/src/main/java/com/mycompany/myapp/others/TestAppConfig.java" />
+    <property name="SearchEverywhereHistoryKey" value="EngAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10; En&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java&#10;robo&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/robovm.xml&#10;Main&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/activities/MainActivity.java&#10;Engag&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;AEIdfa&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementSDK/Classes/AEIdfaProvider.h&#10;EngagementAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;AEReachModule&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEReachModule.h&#10;EngagementDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementDefaultNotifier.java&#10;EngagementUtils&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/utils/EngagementUtils.java&#10;EnE&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;Eng&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class&#10;EnT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;EngagementGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java&#10;AN&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;AndroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;CampaignId&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/CampaignId.java&#10;EngagementReachContent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementReachContent.java&#10;Andro&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;eng&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementNativePushAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/nativepush/EngagementNativePushAgent.java&#10;EngagementGCMEnabler&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementTrackerAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;And&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;Br&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java&#10;AppsFlyerTracker&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java&#10;EngagementApplication&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementApplication.java&#10;EngT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java&#10;EngagementAgentUtils&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementAgentUtils.java&#10;ADEumInstrumentation&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation_interfaces.h&#10;GMCServiceHandler&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/internal/handlers/GMCServiceHandler.class&#10;GcMPu&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java&#10;REceiv&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/GcmPushReceiver.class&#10;CapptainReachAgent&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachAgent.java&#10;CapptainDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainDefaultNotifier.java&#10;CapptainService&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainReachReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachReceiver.java&#10;CapptainS&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMReceiver.java&#10;CapptainUti&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/utils/CapptainUtils.java&#10;CapptainU&#9;PSI&#9;JAVA://com.ubikod.capptain.android.sdk.CapptainAgentUtils&#10;CapptainGCM&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMEnabler.java&#10;OtherLevels&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java&#10;BrandC&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java&#10;OtherLe&#9;PSI&#9;JAVA://com.partypoker.poker.trackers.OtherLevelsTrackerAndroid&#10;Other&#9;PSI&#9;JAVA://com.partypoker.poker.bindings.otherlevels.OtherLevels&#10;MyViewController&#9;PSI&#9;JAVA://com.partypoker.poker.MyViewController&#10;TAGContainerCallbackRefreshType&#9;PSI&#9;JAVA://org.robovm.pods.google.tagmanager.TAGContainerCallbackRefreshType&#10;ANdroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/android/src/main/AndroidManifest.xml&#10;TestAppConfig&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/core/src/main/java/com/mycompany/myapp/others/TestAppConfig.java" />
     <property name="DEBUGGABLE_DEVICE" value="genymotion-samsung_galaxy_s2___4_1_1___api_16___480x800-192.168.56.101:5555" />
     <property name="DEBUGGABLE_PROCESS" value="com.partypoker.poker" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2655,28 +2672,34 @@
       <recent name="com.partypoker.poker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
       <recent name="$PROJECT_DIR$/android/libs" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.partypoker.poker.Config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mycompany.myapp.tracking" />
       <recent name="com.mycompany.myapp.trackers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker" />
+      <recent name="$PROJECT_DIR$/android/src" />
       <recent name="$PROJECT_DIR$/android/src/main/res" />
       <recent name="$PROJECT_DIR$/android/src/main" />
       <recent name="$PROJECT_DIR$/android/libs" />
-      <recent name="$PROJECT_DIR$/ios/libs" />
-      <recent name="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mycompany.myapp.trackers" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.partypoker.poker.tracking" />
       <recent name="com.mycompany.myapp" />
       <recent name="com.mycompany.myapp.trackers" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.android">
+  <component name="RunManager" selected="RoboVM iOS.iOS Device">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -2763,6 +2786,16 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -3005,21 +3038,21 @@
     <list size="17">
       <item index="0" class="java.lang.String" itemvalue="Android Application.android" />
       <item index="1" class="java.lang.String" itemvalue="JAR Application.AF-Android-SDK-v2.3.1.17.jar" />
-      <item index="2" class="java.lang.String" itemvalue="RoboVM iOS.iOS Device" />
-      <item index="3" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-4s" />
-      <item index="4" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-5" />
-      <item index="5" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-5s" />
-      <item index="6" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6" />
-      <item index="7" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6-Plus" />
-      <item index="8" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6s" />
-      <item index="9" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6s-Plus" />
-      <item index="10" class="java.lang.String" itemvalue="RoboVM iOS.iPad-2" />
-      <item index="11" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Air" />
-      <item index="12" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Air-2" />
-      <item index="13" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Pro" />
-      <item index="14" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Retina" />
-      <item index="15" class="java.lang.String" itemvalue="JAR Application.capptain.jar" />
-      <item index="16" class="java.lang.String" itemvalue="JAR Application.mobile-engagement-4.2.0.jar" />
+      <item index="2" class="java.lang.String" itemvalue="JAR Application.capptain.jar" />
+      <item index="3" class="java.lang.String" itemvalue="JAR Application.mobile-engagement-4.2.0.jar" />
+      <item index="4" class="java.lang.String" itemvalue="RoboVM iOS.iOS Device" />
+      <item index="5" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-4s" />
+      <item index="6" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-5" />
+      <item index="7" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-5s" />
+      <item index="8" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6" />
+      <item index="9" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6-Plus" />
+      <item index="10" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6s" />
+      <item index="11" class="java.lang.String" itemvalue="RoboVM iOS.iPhone-6s-Plus" />
+      <item index="12" class="java.lang.String" itemvalue="RoboVM iOS.iPad-2" />
+      <item index="13" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Air" />
+      <item index="14" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Air-2" />
+      <item index="15" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Pro" />
+      <item index="16" class="java.lang.String" itemvalue="RoboVM iOS.iPad-Retina" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -3058,38 +3091,39 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="23" width="1884" height="1057" extended-state="6" />
+    <frame x="35" y="23" width="1885" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.4956569" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.48914224" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.572747" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267101" sideWeight="0.51277375" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3092037" sideWeight="0.495114" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33782384" sideWeight="0.50651467" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1927253" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2507772" sideWeight="0.49402824" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58860105" sideWeight="0.49185666" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3792746" sideWeight="0.41205212" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.49782845" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46943006" sideWeight="0.49185666" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4611399" sideWeight="0.43702498" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2611292" sideWeight="0.48722628" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31709844" sideWeight="0.40228012" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881172" sideWeight="0.48722628" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19067357" sideWeight="0.3990228" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267101" sideWeight="0.51277375" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4310881" sideWeight="0.49348533" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498642" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22797927" sideWeight="0.5086862" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30984455" sideWeight="0.504886" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14115092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20725389" sideWeight="0.42345276" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36062175" sideWeight="0.48751357" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015544" sideWeight="0.4809989" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3111,76 +3145,70 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="120" />
+          <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>62</line>
+          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="125" />
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java</url>
+          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java</url>
           <line>17</line>
           <properties />
-          <option name="timeStamp" value="134" />
+          <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java</url>
-          <line>99</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="140" />
+          <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>60</line>
           <properties />
-          <option name="timeStamp" value="142" />
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java</url>
-          <line>154</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="144" />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="145" />
+      <option name="time" value="176" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="com.robovm.idea.running.RoboVmIOSConfigurationType">
@@ -3193,312 +3221,364 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java">
+    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.106383">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/reach/CampaignId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7545008">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachInteractiveContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.962963">
+          <caret line="424" column="61" selection-start-line="424" selection-start-column="41" selection-end-line="424" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.185185">
+          <caret line="824" column="59" selection-start-line="824" selection-start-column="29" selection-end-line="824" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/nativepush/EngagementNativePushAgent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42857143">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
+          <folding>
+            <marker date="1461740520000" expanded="true" signature="2230:2763" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/utils/EngagementUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2796158">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/gcm/EngagementGCMEnabler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6723586">
+          <caret line="67" column="94" selection-start-line="67" selection-start-column="94" selection-end-line="67" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032967035">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="65" />
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OtherLevels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="118" selection-start-line="19" selection-start-column="4" selection-end-line="32" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementSDK/Headers/AEModule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="102" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementReach/Headers/AEReachPoll.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4357367">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/analytics/GAIDictionaryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47021943">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementSDK/Headers/AEPushMessage.h">
+    <entry file="file://$PROJECT_DIR$/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/activities/MainActivity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
+    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementDefaultNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14310052">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementReachInteractiveContent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1724138">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementReachContent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1724138">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/EngagementAgentUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2962962">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementDefaultNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.148148">
+          <caret line="492" column="102" selection-start-line="492" selection-start-column="102" selection-end-line="492" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementSDK/Headers/EngagementAgent.h">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="386" selection-end-column="42" />
+          <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OLOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5185184">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModule.java">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModuleAdapter.java">
+    <entry file="file://$USER_HOME$/android/android-sdk-macosx/sources/android-23/android/app/PendingIntent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18808778">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.25054947">
+          <caret line="730" column="57" selection-start-line="730" selection-start-column="57" selection-end-line="730" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#48642#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.77778">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/AppsFlyer/AppsFlyerTracker.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.074074">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="141" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTracker.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+          <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegateAdapter.java">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation.h">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation_interfaces.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.5925925">
-          <caret line="110" column="70" selection-start-line="110" selection-start-column="70" selection-end-line="110" selection-end-column="70" />
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegate.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OLOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="5" selection-start-line="57" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEPushMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/EngagementAgentUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.814815">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/BrandComponentFactoryIOS.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1231#1232#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/IUIApplicationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_poll.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_poll_choice.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_poll_question.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_text_announcement.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/drawable/engagement_content_title.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/drawable/engagement_close.png">
+    <entry file="file://$PROJECT_DIR$/ios/resources/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/mipmap-xhdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/ios/resources/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+    <entry file="file://$PROJECT_DIR$/ios/resources/x_button_0@2x.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_button_bar.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_my.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17777778">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10688836">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/ServiceReceiver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/PushReceiver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/activity/EngagementPollActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38610038">
-          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java">
+    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementReach/Headers/AEReachModule.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="121" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementSDK/Classes/AEIdfaProvider.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.333333">
+          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/PushNotificationView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="436" column="0" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#3529#3530#0" expanded="true" />
+            <element signature="e#3603#3604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/robovm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -3506,77 +3586,40 @@
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/EngagementAgent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.715942">
+        <state vertical-scroll-proportion="-8.962963">
           <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/engagement_web_announcement.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java">
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.3625498">
+          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.375">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

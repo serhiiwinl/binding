@@ -5,7 +5,7 @@ import com.partypoker.poker.application.IAppCallbacks;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.AppDynamicsTrackerAndroid;
 import com.partypoker.poker.trackers.AppsFlyerTrackerAndroid;
-import com.partypoker.poker.trackers.EngagementTrackerAndroid;
+import com.partypoker.poker.trackers.engagement.EngagementTrackerAndroid;
 import com.partypoker.poker.trackers.OtherLevelsTrackerAndroid;
 
 import java.util.ArrayList;

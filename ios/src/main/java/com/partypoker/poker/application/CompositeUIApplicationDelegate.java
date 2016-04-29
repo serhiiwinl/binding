@@ -1,10 +1,14 @@
 package com.partypoker.poker.application;
 
-import com.partypoker.poker.BrandComponentFactoryIOS;
-import com.partypoker.poker.IUIApplicationDelegate;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
+import org.robovm.apple.uikit.UIApplication;
+import org.robovm.apple.uikit.UIApplicationLaunchOptions;
+import org.robovm.apple.uikit.UIBackgroundFetchResult;
+import org.robovm.apple.uikit.UIRemoteNotification;
+import org.robovm.objc.annotation.Block;
+import org.robovm.objc.block.VoidBlock1;
 
 import java.util.Iterator;
 import java.util.List;
@@ -14,51 +18,44 @@ import java.util.List;
  */
 public class CompositeUIApplicationDelegate implements IUIApplicationDelegate {
 
-    private static volatile CompositeUIApplicationDelegate instance = null;
+    private final List<IUIApplicationDelegate> listeners;
 
-    protected CompositeUIApplicationDelegate() {
-    }
-
-    public static CompositeUIApplicationDelegate getInstance() {
-        if (instance == null) {
-            synchronized (CompositeUIApplicationDelegate.class) {
-                if (instance == null) {
-                    instance = new CompositeUIApplicationDelegate();
-                }
-            }
-        }
-        return instance;
+    public CompositeUIApplicationDelegate(List<IUIApplicationDelegate> listeners) {
+        this.listeners = listeners;
     }
 
     @Override
-    public void startWithApplicationLaunchOptions(NSDictionary<?, ?> launchOptions) {
-        for (Iterator<IUIApplicationDelegate> iterator = getTrackersList().iterator(); iterator.hasNext();) {
+    public void startWithApplicationLaunchOptions(UIApplicationLaunchOptions launchOptions) {
+        for (Iterator<IUIApplicationDelegate> iterator = listeners.iterator(); iterator.hasNext();) {
             iterator.next().startWithApplicationLaunchOptions(launchOptions);
         }
     }
 
     @Override
     public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
-        for (Iterator<IUIApplicationDelegate> iterator = getTrackersList().iterator(); iterator.hasNext();) {
+        for (Iterator<IUIApplicationDelegate> iterator = listeners.iterator(); iterator.hasNext();) {
             iterator.next().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
         }
     }
 
     @Override
     public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
-        for (Iterator<IUIApplicationDelegate> iterator = getTrackersList().iterator(); iterator.hasNext();) {
+        for (Iterator<IUIApplicationDelegate> iterator = listeners.iterator(); iterator.hasNext();) {
             iterator.next().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
         }
     }
 
     @Override
-    public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {
-        for (Iterator<IUIApplicationDelegate> iterator = getTrackersList().iterator(); iterator.hasNext();) {
-            iterator.next().applicationDidReceiveRemoteNotification(userInfo);
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
+        for (Iterator<IUIApplicationDelegate> iterator = listeners.iterator(); iterator.hasNext();) {
+            iterator.next().didReceiveRemoteNotification(application, userInfo);
         }
     }
 
-    private List<IUIApplicationDelegate> getTrackersList() {
-        return BrandComponentFactoryIOS.getInstance().getUIApplicationDelegateHandlers();
+    @Override
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo, @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
+        for (Iterator<IUIApplicationDelegate> iterator = listeners.iterator(); iterator.hasNext();) {
+            iterator.next().didReceiveRemoteNotification(application, userInfo, completionHandler);
+        }
     }
 }

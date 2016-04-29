@@ -11,7 +11,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.google.android.gms.tagmanager.TagManager;
 import com.otherlevels.android.sdk.OlAndroidLibrary;
 import com.otherlevels.android.sdk.internal.log.Logger;
 import com.partypoker.poker.BaseApplication;
@@ -19,15 +18,15 @@ import com.partypoker.poker.R;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.CommonInit;
 import com.partypoker.poker.others.State;
-import com.partypoker.poker.trackers.impl.AppUsageTracker;
+import com.partypoker.poker.trackers.engagement.CustomEngagementNotifier;
 import org.json.JSONObject;
 
 import java.util.Iterator;
 
-public class MainActivity extends Activity implements State {
+public class MainActivity extends Activity implements State<MainActivity> {
 
-    private static final String tag = MainActivity.class.getSimpleName();
     static final Integer pCodeLength = 5;
+    private static final String tag = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +45,8 @@ public class MainActivity extends Activity implements State {
             public void onClick(View view) {
                 BrandComponentFactory.getInstance().getAppUsageTracker().trackLoginSuccess("testUser", "sdsdse11223dssd");
                 counterTextView.setText("Click Nr. " + 1);
+                CustomEngagementNotifier.getInstance(MainActivity.this).pushAllowed = true;
+                CustomEngagementNotifier.getInstance(MainActivity.this).handlePendingNotification();
             }
         });
 
@@ -56,7 +57,7 @@ public class MainActivity extends Activity implements State {
     protected void onResume() {
         super.onResume();
         getMyApplication().setCurrentActivity(this);
-        BrandComponentFactory.getInstance().getAppUsageTracker().startActivity(this);
+        BrandComponentFactory.getInstance().getAppUsageTracker().onResume(this);
     }
 
     @Override
@@ -112,16 +113,16 @@ public class MainActivity extends Activity implements State {
             Iterator e = extras.keySet().iterator();
 
             label32:
-            while(true) {
-                while(true) {
-                    if(!e.hasNext()) {
+            while (true) {
+                while (true) {
+                    if (!e.hasNext()) {
                         break label32;
                     }
 
-                    String key = (String)e.next();
-                    if(key.compareToIgnoreCase("p") == 0 && extras.getString("p").length() > pCodeLength.intValue()) {
+                    String key = (String) e.next();
+                    if (key.compareToIgnoreCase("p") == 0 && extras.getString("p").length() > pCodeLength.intValue()) {
                         pHash = extras.getString(key);
-                    } else if(key.compareToIgnoreCase("payload") == 0 && extras.getString(key).length() > 0) {
+                    } else if (key.compareToIgnoreCase("payload") == 0 && extras.getString(key).length() > 0) {
                         messageText = extras.getString(key);
                     } else {
                         metaData.put(key, extras.get(key));
@@ -143,7 +144,7 @@ public class MainActivity extends Activity implements State {
         final PackageManager pm = mContext.getPackageManager();
         ApplicationInfo ai;
         try {
-            ai = pm.getApplicationInfo( mContext.getPackageName(), 0);
+            ai = pm.getApplicationInfo(mContext.getPackageName(), 0);
         } catch (final PackageManager.NameNotFoundException e) {
             ai = null;
         }
@@ -152,9 +153,9 @@ public class MainActivity extends Activity implements State {
         String pHash = "";
         try {
             for (String key : extras.keySet()) {
-                if ( key.compareToIgnoreCase("p") == 0 && extras.getString(key).length() > pCodeLength ) {
+                if (key.compareToIgnoreCase("p") == 0 && extras.getString(key).length() > pCodeLength) {
                     pHash = extras.getString(key);
-                } else if ( key.compareToIgnoreCase("payload") == 0 && extras.getString(key).length() > 0 ) {
+                } else if (key.compareToIgnoreCase("payload") == 0 && extras.getString(key).length() > 0) {
                     tickerText = extras.getString(key);
                 }
                 Log.d(tag, String.format("onMessage: %s=%s", key, extras.getString(key)));
@@ -162,5 +163,15 @@ public class MainActivity extends Activity implements State {
         } catch (NullPointerException npe) {
             tickerText = "no key=msg has been provided.";
         }
+    }
+
+    @Override
+    public MainActivity getActivity() {
+        return this;
+    }
+
+    @Override
+    public String getActivityName() {
+        return tag;
     }
 }

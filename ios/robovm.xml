@@ -15,7 +15,11 @@
         <lib>libs/GoogleAnalyticsServices/libGoogleAnalyticsServices.a</lib>
         <lib>libs/Engagement/EngagementReach/libreach.a</lib>
         <lib>libs/Engagement/EngagementSDK/libengagement.a</lib>
+        <lib>libs/Engagement/EngagementSDK/libAzureMobileEngagementSdkSupport.a</lib>
+        <lib>libs/Engagement/EngagementSDK/libAzureMobileEngagementSdkSupporSimulator.a</lib>
+        <lib>xml2</lib>
     </libs>
+
     <frameworkPaths>
         <path>libs</path>
     </frameworkPaths>

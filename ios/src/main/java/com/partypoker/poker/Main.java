@@ -1,10 +1,10 @@
 package com.partypoker.poker;
 
 
+import com.partypoker.poker.factories.BrandComponentFactoryIOS;
 import com.partypoker.poker.others.BrandComponentFactory;
 import org.robovm.apple.foundation.NSAutoreleasePool;
 import org.robovm.apple.foundation.NSData;
-import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
 import org.robovm.apple.uikit.*;
 import org.robovm.objc.Selector;
@@ -23,8 +23,9 @@ public class Main extends UIApplicationDelegateAdapter {
     public boolean didFinishLaunching(UIApplication application, UIApplicationLaunchOptions launchOptions) {
         System.out.println("didFinishLaunching");
         initAll();
+        BrandComponentFactoryIOS.getInstance().getCompositeUIApplicationDelegate().startWithApplicationLaunchOptions(launchOptions);
+        BrandComponentFactory.getInstance().getAppUsageTracker().onConfigLoaded(new Config());
         if (launchOptions != null) {
-            CompositeUIApplicationDelegate.getInstance().startWithApplicationLaunchOptions(launchOptions.getDictionary());
             didReceiveRemoteNotification(application, launchOptions.getRemoteNotification());
         }
 
@@ -50,19 +51,24 @@ public class Main extends UIApplicationDelegateAdapter {
     @Override
     public void didRegisterForRemoteNotifications(UIApplication application, NSData deviceToken) {
         System.out.println("didRegisterForRemoteNotifications");
-        CompositeUIApplicationDelegate.getInstance().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
+        BrandComponentFactoryIOS.getInstance().getCompositeUIApplicationDelegate().applicationDidRegisterForRemoteNotificationsWithDeviceToken(deviceToken);
     }
 
     @Override
     public void didFailToRegisterForRemoteNotifications(UIApplication application, NSError error) {
         System.out.println("didFailToRegisterForRemoteNotifications");
-        CompositeUIApplicationDelegate.getInstance().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
+        BrandComponentFactoryIOS.getInstance().getCompositeUIApplicationDelegate().applicationDidFailToRegisterForRemoteNotificationsWithError(error);
     }
 
     @Override
     public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
         System.out.println("didReceiveRemoteNotification");
-        CompositeUIApplicationDelegate.getInstance().applicationDidReceiveRemoteNotification(userInfo.getDictionary());
+        BrandComponentFactoryIOS.getInstance().getCompositeUIApplicationDelegate().didReceiveRemoteNotification(application, userInfo);
+    }
+
+    @Override
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo, @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
+        super.didReceiveRemoteNotification(application, userInfo, completionHandler);
     }
 
     private void initAll() {

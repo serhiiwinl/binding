@@ -1,5 +1,6 @@
 package com.partypoker.poker.trackers.impl;
 
+import com.partypoker.poker.Config;
 import com.partypoker.poker.others.ActionButton;
 import com.partypoker.poker.others.InTurnOption;
 import com.partypoker.poker.others.PokerTournyCategory;
@@ -11,32 +12,17 @@ import com.partypoker.poker.others.State;
 public class AppUsageTrackerAdapter extends AppUsageTracker {
 
     @Override
-    public void start(Object data) {
-
-    }
-
-    @Override
     public void onAttachToApp(Object app) {
 
     }
 
     @Override
-    public void startActivity(State activity) {
+    public void onResume(State activity) {
 
     }
 
     @Override
-    public void endActivity(State activity) {
-
-    }
-
-    @Override
-    public void startJob(String jobName) {
-
-    }
-
-    @Override
-    public void endJob(String jobName) {
+    public void onPause(State activity) {
 
     }
 
@@ -47,11 +33,6 @@ public class AppUsageTrackerAdapter extends AppUsageTracker {
 
     @Override
     public void hideDialog(State activity, String dialogName) {
-
-    }
-
-    @Override
-    public void trackApplicationLaunch(String appVersion, String appCapacity) {
 
     }
 
@@ -322,6 +303,11 @@ public class AppUsageTrackerAdapter extends AppUsageTracker {
 
     @Override
     public void trackBet(ActionButton buttonTag, String currency, String amount) {
+
+    }
+
+    @Override
+    public void onConfigLoaded(Config config) {
 
     }
 }

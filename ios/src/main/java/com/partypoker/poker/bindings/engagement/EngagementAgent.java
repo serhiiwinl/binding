@@ -8,6 +8,7 @@ import org.robovm.apple.uikit.UIBackgroundFetchResult;
 import org.robovm.objc.annotation.Block;
 import org.robovm.objc.annotation.Method;
 import org.robovm.objc.annotation.NativeClass;
+import org.robovm.objc.annotation.Property;
 import org.robovm.objc.block.VoidBlock1;
 
 /**
@@ -38,8 +39,9 @@ public class EngagementAgent extends NSObject {
      * @param //...            A comma-separated list of Engagement modules.
      */
     // + (void)init:(NSString*)connectionString modules:(id<AEModule>)firstModule, ...;
-    @Method(selector = "init:modules:")
-    public static native void init(String connectionString, AEModule... firstModule);
+    //TODO: method with ... in objective C ???
+//    @Method(selector = "init:modules:")
+//    public static native void init(String connectionString, AEModule... firstModule);
 
     /**
      * Register application with the given connection string associated to the
@@ -76,7 +78,7 @@ public class EngagementAgent extends NSObject {
      * Returns the singleton instance of the Engagement agent.
      */
     //+ (EngagementAgent*)shared;
-    @Method(selector = "shared:")
+    @Property(selector = "shared")
     public static native EngagementAgent shared();
 
     /**
@@ -104,8 +106,8 @@ public class EngagementAgent extends NSObject {
      * @param threshold Delay in seconds between each analytic burst.
      */
     //- (void)setBurstThreshold:(double)threshold;
-    @Method(selector = "setBurstThreshold:")
-    public native void setBurstThreshold(Double threshold);
+//    @Method(selector = "setBurstThreshold:")
+//    public native void setBurstThreshold(Double threshold);
 
     /**
      * By default, Engagement Agent will report your application crashes. If you want to
@@ -394,6 +396,6 @@ public class EngagementAgent extends NSObject {
      * @param timeFrame The target time frame.
      */
     //- (void)getCampaigns:(NSNumber*)timeFrame;
-    @Method(selector = "getCampaigns:")
-    public native void getCampaigns(Number timeFrame);
+//    @Method(selector = "getCampaigns:")
+//    public native void getCampaigns(Number timeFrame);
 }

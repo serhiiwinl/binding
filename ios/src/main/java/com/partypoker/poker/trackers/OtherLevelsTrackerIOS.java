@@ -1,24 +1,30 @@
 package com.partypoker.poker.trackers;
 
-import com.partypoker.poker.IUIApplicationDelegate;
+import com.partypoker.poker.Config;
 import com.partypoker.poker.MyViewController;
+import com.partypoker.poker.application.IUIApplicationDelegate;
 import com.partypoker.poker.bindings.otherlevels.OLOptions;
 import com.partypoker.poker.bindings.otherlevels.OtherLevels;
-import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.tracking.TrackerConstants;
 import com.partypoker.poker.trackers.impl.AppUsageTrackerAdapter;
-import com.partypoker.poker.tracking.IBaseApplicationEvents;
+import com.partypoker.poker.tracking.IBaseApplicationActions;
 import com.partypoker.poker.tracking.ILoginEvents;
 import org.robovm.apple.foundation.NSData;
 import org.robovm.apple.foundation.NSDictionary;
 import org.robovm.apple.foundation.NSError;
+import org.robovm.apple.uikit.UIApplication;
+import org.robovm.apple.uikit.UIApplicationLaunchOptions;
+import org.robovm.apple.uikit.UIBackgroundFetchResult;
+import org.robovm.apple.uikit.UIRemoteNotification;
+import org.robovm.objc.annotation.Block;
+import org.robovm.objc.block.VoidBlock1;
 
 import static com.partypoker.poker.bindings.otherlevels.OLOptions.developmentOptions;
 
 /**
  * Created by sliubetskyi on 3/22/16.
  */
-@TrackingList(value = {ILoginEvents.class, IBaseApplicationEvents.class})
+@TrackingList(value = {ILoginEvents.class, IBaseApplicationActions.class})
 public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUIApplicationDelegate {
 
     protected NSDictionary<?, ?> appLaunchOptions = new NSDictionary<>();
@@ -28,7 +34,7 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
     @Override
     public void onAttachToApp(Object app) {
         super.onAttachToApp(app);
-        if (BrandComponentFactory.otherLevelsAppKey == null || BrandComponentFactory.otherLevelsAppKey.equals("")) {
+        if (Config.otherLevelsAppKey == null || Config.otherLevelsAppKey.equals("")) {
             System.out.println("OtherLevels application key is null or empty");
             return;
         }
@@ -41,10 +47,10 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
         //else
         //OLOptions options = defaultOptions();
         options.setHandleApplicationEvents(false);
-        options.setAppKey(BrandComponentFactory.otherLevelsAppKey);
+        options.setAppKey(Config.otherLevelsAppKey);
 
         //if (this.appLaunchOptions != null) {
-            OtherLevels.startSessionWithLaunchOptions(this.appLaunchOptions, options);
+        OtherLevels.startSessionWithLaunchOptions(this.appLaunchOptions, options);
         //}
 
         if (this.deviceToken != null && !this.deviceToken.equals("")) {
@@ -53,8 +59,9 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
     }
 
     @Override
-    public void startWithApplicationLaunchOptions(NSDictionary<?, ?> launchOptions) {
-        this.appLaunchOptions = launchOptions;
+    public void startWithApplicationLaunchOptions(UIApplicationLaunchOptions launchOptions) {
+        if (launchOptions != null)
+            this.appLaunchOptions = launchOptions.getDictionary();
     }
 
     @Override
@@ -69,8 +76,17 @@ public class OtherLevelsTrackerIOS extends AppUsageTrackerAdapter implements IUI
     }
 
     @Override
-    public void applicationDidReceiveRemoteNotification(NSDictionary<?, ?> userInfo) {
-		//TODO:
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
+        receiveRemoteNotification(userInfo.getDictionary());
+    }
+
+
+    @Override
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo, @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
+        receiveRemoteNotification(userInfo.getDictionary());
+    }
+
+    private void receiveRemoteNotification(NSDictionary<?, ?> userInfo) {
         if (userInfo != null && userInfo.get("aps") != null) {
             if (userInfo.get("aps") instanceof NSDictionary<?, ?>) {
                 NSDictionary<?, ?> apsDic = (NSDictionary<?, ?>) userInfo.get("aps");

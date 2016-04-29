@@ -8,23 +8,11 @@ import com.partypoker.poker.trackers.ICommonAppUsageTrackerInterface;
  */
 public abstract class AppUsageTracker implements ICommonAppUsageTrackerInterface {
 
-    private static volatile AppUsageCompositeTracker instance = null;
-
+    //TODO:
     public boolean isReadyForUse() {
         return false;
     }
 
     protected AppUsageTracker() {
-    }
-
-    public static AppUsageTracker getInstance() {
-        if (instance == null) {
-            synchronized (AppUsageTracker.class) {
-                if (instance == null) {
-                    instance = new AppUsageCompositeTracker();
-                }
-            }
-        }
-        return instance;
     }
 }

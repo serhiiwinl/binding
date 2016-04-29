@@ -1,13 +1,13 @@
 package com.partypoker.poker.trackers;
 
 import com.google.common.base.Strings;
-import com.partypoker.poker.BrandComponentFactoryIOS;
+import com.partypoker.poker.Config;
+import com.partypoker.poker.factories.BrandComponentFactoryIOS;
 import com.partypoker.poker.MyViewController;
 import com.partypoker.poker.bindings.appsflyer.AppsFlyerTrackerDelegateAdapter;
 import com.partypoker.poker.others.AppUsageConfigInterface;
-import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.concrete.AppsFlyerTracker;
-import com.partypoker.poker.tracking.IBaseApplicationEvents;
+import com.partypoker.poker.tracking.IBaseApplicationActions;
 import com.partypoker.poker.tracking.ILoginEvents;
 import com.partypoker.poker.tracking.IUserActions;
 import org.robovm.apple.foundation.NSDictionary;
@@ -19,7 +19,7 @@ import static com.partypoker.poker.bindings.appsflyer.AppsFlyerTracker.sharedTra
 /**
  * Created by sliubetskyi on 4/6/16.
  */
-@TrackingList(value = {IBaseApplicationEvents.class, ILoginEvents.class, IUserActions.class})
+@TrackingList(value = {IBaseApplicationActions.class, ILoginEvents.class, IUserActions.class})
 public class AppsFlyerTrackerIOS extends AppsFlyerTracker {
 
     private MyViewController app;
@@ -37,7 +37,7 @@ public class AppsFlyerTrackerIOS extends AppsFlyerTracker {
 
         sharedTracker().setIsDebug(true);
 //        }
-        sharedTracker().setAppsFlyerDevKey(BrandComponentFactory.appsflyerDevKey);
+        sharedTracker().setAppsFlyerDevKey(Config.appsflyerDevKey);
         sharedTracker().setAppleAppID(BrandComponentFactoryIOS.appleAppID);
         sharedTracker().setDelegate(new AppsFlyerTrackerDelegateAdapter() {
             @Override
@@ -52,9 +52,8 @@ public class AppsFlyerTrackerIOS extends AppsFlyerTracker {
         });
     }
 
-    @Override
     public void trackApplicationLaunch(String appVersion, String appCapacity) {
-        super.trackApplicationLaunch(appVersion, appCapacity);
+
     }
 
     @Override

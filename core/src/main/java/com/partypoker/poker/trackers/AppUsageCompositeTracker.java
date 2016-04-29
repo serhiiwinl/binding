@@ -1,83 +1,51 @@
 package com.partypoker.poker.trackers;
 
 
+import com.partypoker.poker.Config;
 import com.partypoker.poker.others.ActionButton;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.InTurnOption;
 import com.partypoker.poker.others.PokerTournyCategory;
 import com.partypoker.poker.others.State;
 import com.partypoker.poker.trackers.impl.AppUsageTracker;
-import com.partypoker.poker.tracking.IBaseApplicationEvents;
-import com.partypoker.poker.tracking.ILoginEvents;
-import com.partypoker.poker.tracking.ILogoutEvents;
-import com.partypoker.poker.tracking.INavigationEvents;
-import com.partypoker.poker.tracking.IPokerGamePlay;
-import com.partypoker.poker.tracking.IUserActions;
+import com.partypoker.poker.tracking.*;
 
 import java.util.Iterator;
 
 public class AppUsageCompositeTracker extends AppUsageTracker {
 
     @Override
-    public void start(Object data) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().start(data);
-        }
-    }
-
-    @Override
     public void onAttachToApp(Object app) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
+        for (Iterator<IBaseApplicationActions> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
             iterator.next().onAttachToApp(app);
         }
     }
 
     @Override
-    public void startActivity(State activity) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().startActivity(activity);
+    public void onResume(State activity) {
+        for (Iterator<IBaseApplicationActions> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
+            iterator.next().onResume(activity);
         }
     }
 
     @Override
-    public void endActivity(State activity) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().startActivity(activity);
-        }
-    }
-
-    @Override
-    public void startJob(String jobName) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().startJob(jobName);
-        }
-    }
-
-    @Override
-    public void endJob(String jobName) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().endJob(jobName);
+    public void onPause(State activity) {
+        for (Iterator<IBaseApplicationActions> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
+            iterator.next().onResume(activity);
         }
     }
 
     @Override
     public void showDialog(State activity, String dialogName) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().startActivity(activity);
+        for (Iterator<IBaseApplicationActions> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
+            iterator.next().onResume(activity);
         }
     }
 
     @Override
     public void hideDialog(State activity, String dialogName) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().startActivity(activity);
-        }
-    }
-
-    @Override
-    public void trackApplicationLaunch(String appVersion, String appCapacity) {
-        for (Iterator<IBaseApplicationEvents> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
-            iterator.next().trackApplicationLaunch(appVersion, appCapacity);
+        for (Iterator<IBaseApplicationActions> iterator = BrandComponentFactory.getInstance().getBaseAppEvents().iterator(); iterator.hasNext(); ) {
+            iterator.next().onResume(activity);
         }
     }
 
@@ -463,4 +431,10 @@ public class AppUsageCompositeTracker extends AppUsageTracker {
         }
     }
 
+    @Override
+    public void onConfigLoaded(Config config) {
+        for (Iterator<IConfigLoaded> iterator = BrandComponentFactory.getInstance().getConfigLoaded().iterator(); iterator.hasNext(); ) {
+            iterator.next().onConfigLoaded(config);
+        }
+    }
 }
