@@ -5,7 +5,7 @@ import com.partypoker.poker.application.IUIApplicationDelegate;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.trackers.AppDynamicsTrackerIOS;
 import com.partypoker.poker.trackers.AppsFlyerTrackerIOS;
-import com.partypoker.poker.trackers.EngagementTrackerIOS;
+import com.partypoker.poker.trackers.engagement.EngagementTrackerIOS;
 import com.partypoker.poker.trackers.OtherLevelsTrackerIOS;
 
 import java.util.ArrayList;
@@ -51,7 +51,7 @@ public class BrandComponentFactoryIOS extends BrandComponentFactory {
     }
 
     protected void addUiAppDelegateListeners() {
-        addUIApplicationDelegateListener(getOtherLevelTrackerIOS());
+        //addUIApplicationDelegateListener(getOtherLevelTrackerIOS());
         addUIApplicationDelegateListener(getEngagementTrackerIOS());
     }
 
@@ -61,7 +61,7 @@ public class BrandComponentFactoryIOS extends BrandComponentFactory {
 
     @Override
     protected void addTrackers() {
-        addConcreteTracker(getOtherLevelTrackerIOS());
+        //addConcreteTracker(getOtherLevelTrackerIOS());
         addConcreteTracker(getAppDynamicsTrackerIOS());
         addConcreteTracker(getAppsFlyerTrackerIOS());
         addConcreteTracker(getEngagementTrackerIOS());

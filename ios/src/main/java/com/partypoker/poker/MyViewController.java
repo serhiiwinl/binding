@@ -1,5 +1,6 @@
 package com.partypoker.poker;
 
+import com.partypoker.poker.bindings.engagement.EngagementAgent;
 import com.partypoker.poker.others.AppUsageConfigInterface;
 import com.partypoker.poker.others.BrandComponentFactory;
 import com.partypoker.poker.others.State;
@@ -40,6 +41,7 @@ public class MyViewController extends UIViewController implements State<MyViewCo
 
     @IBAction
     private void clicked() {
+        EngagementAgent.shared().startActivity(getActivityName(), null);
         label.setText("Click Nr. " + 1);
     }
 

@@ -68,7 +68,8 @@ public class Main extends UIApplicationDelegateAdapter {
 
     @Override
     public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo, @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
-        super.didReceiveRemoteNotification(application, userInfo, completionHandler);
+        System.out.println("didReceiveRemoteNotification");
+        BrandComponentFactoryIOS.getInstance().getCompositeUIApplicationDelegate().didReceiveRemoteNotification(application, userInfo, completionHandler);
     }
 
     private void initAll() {

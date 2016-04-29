@@ -10,6 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b718638-a4c4-4398-85cd-2328fb612b72" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/resources/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/resources/AEDefaultAnnouncementView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/resources/AEDefaultPollView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/resources/AENotificationView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEDefaultNotifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEInteractiveContent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifierAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachContent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/CustomAENotifier.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
@@ -17,41 +28,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/iOS_Device.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/iOS_Device.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/BaseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/robovm.xml" afterPath="$PROJECT_DIR$/ios/robovm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/robovm.properties" afterPath="$PROJECT_DIR$/ios/robovm.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" afterPath="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
     </list>
     <ignored path="binding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,30 +80,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="EngagementTrackerIOS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EngagementTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
+      <file leaf-file-name="MyViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EngagementTrackerAndroid.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3625498">
-              <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -131,61 +103,38 @@
         <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+              <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompositeUIApplicationDelegate.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EngagementTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositeUIApplicationDelegate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22156574">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IUIApplicationDelegate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java">
+      <file leaf-file-name="UIApplicationDelegateAdapter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/uikit/UIApplicationDelegateAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+            <state vertical-scroll-proportion="-6.740741">
+              <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robovm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/robovm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandComponentFactoryIOS.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#3529#3530#0" expanded="true" />
-                <element signature="e#3603#3604#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -2329,16 +2278,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/IAppLifecycleCallbacks.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/CustomeEngagementNotifier.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/CustomEngagementNotifier.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/IAppCallbacks.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/application/CompositeAppCallbacks.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/AppsFlyerTracker.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppDynamicsTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/MainActivity.java" />
@@ -2349,7 +2289,6 @@
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IBaseApplicationActions.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/Config.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking/IConfigLoaded.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/ICommonAppUsageTrackerInterface.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTrackerAdapter.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/impl/AppUsageTracker.java" />
@@ -2366,20 +2305,30 @@
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEIdfaProvider.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/AEIdfaProvider.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java" />
         <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java" />
         <option value="$PROJECT_DIR$/ios/robovm.xml" />
-        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifier.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEDefaultNotifier.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifierAdapter.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEInteractiveContent.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachContent.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/CustomAENotifier.java" />
+        <option value="$PROJECT_DIR$/ios/robovm.properties" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java" />
+        <option value="$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java" />
       </list>
     </option>
   </component>
@@ -2527,121 +2476,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Images.xcassets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base.lproj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngagementSDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Engagement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngagementReach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2662,7 +2497,7 @@
     <property name="last_opened_file_path" value="/usr/bin/git" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/tracking" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="EngAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10; En&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java&#10;robo&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/robovm.xml&#10;Main&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/activities/MainActivity.java&#10;Engag&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;AEIdfa&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementSDK/Classes/AEIdfaProvider.h&#10;EngagementAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;AEReachModule&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEReachModule.h&#10;EngagementDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementDefaultNotifier.java&#10;EngagementUtils&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/utils/EngagementUtils.java&#10;EnE&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;Eng&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class&#10;EnT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;EngagementGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java&#10;AN&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;AndroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;CampaignId&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/CampaignId.java&#10;EngagementReachContent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementReachContent.java&#10;Andro&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;eng&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementNativePushAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/nativepush/EngagementNativePushAgent.java&#10;EngagementGCMEnabler&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementTrackerAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;And&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;Br&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java&#10;AppsFlyerTracker&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java&#10;EngagementApplication&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementApplication.java&#10;EngT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java&#10;EngagementAgentUtils&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementAgentUtils.java&#10;ADEumInstrumentation&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation_interfaces.h&#10;GMCServiceHandler&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/internal/handlers/GMCServiceHandler.class&#10;GcMPu&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java&#10;REceiv&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/GcmPushReceiver.class&#10;CapptainReachAgent&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachAgent.java&#10;CapptainDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainDefaultNotifier.java&#10;CapptainService&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainReachReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachReceiver.java&#10;CapptainS&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMReceiver.java&#10;CapptainUti&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/utils/CapptainUtils.java&#10;CapptainU&#9;PSI&#9;JAVA://com.ubikod.capptain.android.sdk.CapptainAgentUtils&#10;CapptainGCM&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMEnabler.java&#10;OtherLevels&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerAndroid.java&#10;BrandC&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java&#10;OtherLe&#9;PSI&#9;JAVA://com.partypoker.poker.trackers.OtherLevelsTrackerAndroid&#10;Other&#9;PSI&#9;JAVA://com.partypoker.poker.bindings.otherlevels.OtherLevels&#10;MyViewController&#9;PSI&#9;JAVA://com.partypoker.poker.MyViewController&#10;TAGContainerCallbackRefreshType&#9;PSI&#9;JAVA://org.robovm.pods.google.tagmanager.TAGContainerCallbackRefreshType&#10;ANdroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/android/src/main/AndroidManifest.xml&#10;TestAppConfig&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/binding/core/src/main/java/com/mycompany/myapp/others/TestAppConfig.java" />
+    <property name="SearchEverywhereHistoryKey" value="Main&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/Main.java&#10;Other&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java&#10;BR&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java&#10;Bra&#9;PSI&#9;JAVA://com.partypoker.poker.factories.BrandComponentFactoryIOS&#10;CustomAENotifier&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/engagement/CustomAENotifier.java&#10;AEReachContent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEReachContent.h&#10;AEInteractiveContent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEInteractiveContent.h&#10;AED&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEDefaultNotifier.h&#10;AEDe&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEDefaultNotifier.h&#10;AEReachModule&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementReach/Headers/AEReachModule.h&#10;EngAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10; En&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java&#10;robo&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/robovm.xml&#10;Engag&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;AEIdfa&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/Engagement/EngagementSDK/Classes/AEIdfaProvider.h&#10;EngagementAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java&#10;EngagementDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementDefaultNotifier.java&#10;EngagementUtils&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/utils/EngagementUtils.java&#10;EnE&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;Eng&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class&#10;EnT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;EngagementGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java&#10;AN&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;AndroidM&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;CampaignId&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/CampaignId.java&#10;EngagementReachContent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/reach/EngagementReachContent.java&#10;Andro&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;eng&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementNativePushAgent&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/engagement/nativepush/EngagementNativePushAgent.java&#10;EngagementGCMEnabler&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/engagement/gcm/EngagementGCMEnabler.java&#10;EngagementTrackerAndroid&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java&#10;And&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/AndroidManifest.xml&#10;Br&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java&#10;AppsFlyerTracker&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java&#10;EngagementApplication&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementApplication.java&#10;EngT&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/trackers/EngagementTrackerAndroid.java&#10;EngagementAgentUtils&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/mobileengagement 3/src/com/microsoft/azure/engagement/EngagementAgentUtils.java&#10;ADEumInstrumentation&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/ios/libs/ADEUMInstrumentation.framework/Headers/ADEumInstrumentation_interfaces.h&#10;GMCServiceHandler&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/otherlevels-android-sdk.jar!/com/otherlevels/android/sdk/internal/handlers/GMCServiceHandler.class&#10;GcMPu&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/src/main/java/com/partypoker/poker/GcmPushReceiver.java&#10;REceiv&#9;FILE&#9;file:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/GcmPushReceiver.class&#10;CapptainReachAgent&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachAgent.java&#10;CapptainDefaultNotifier&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainDefaultNotifier.java&#10;CapptainService&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainReachReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/reach/CapptainReachReceiver.java&#10;CapptainS&#9;FILE&#9;jar:///Users/sliubetskyi/projects/roboVM/analytics-com/binding/android/libs/capptain.jar!/com/ubikod/capptain/ICapptainService.class&#10;CapptainGCMReceiver&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMReceiver.java&#10;CapptainUti&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/utils/CapptainUtils.java&#10;CapptainU&#9;PSI&#9;JAVA://com.ubikod.capptain.android.sdk.CapptainAgentUtils&#10;CapptainGCM&#9;FILE&#9;file:///Users/sliubetskyi/Downloads/azure-mobile-engagement-capptain-cordova-master/src/android/capptain-sdk-android/src/com/ubikod/capptain/android/sdk/gcm/CapptainGCMEnabler.java" />
     <property name="DEBUGGABLE_DEVICE" value="genymotion-samsung_galaxy_s2___4_1_1___api_16___480x800-192.168.56.101:5555" />
     <property name="DEBUGGABLE_PROCESS" value="com.partypoker.poker" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -2684,11 +2519,11 @@
       <recent name="com.mycompany.myapp.trackers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ios/resources" />
       <recent name="$PROJECT_DIR$/android/src/main/java/com/partypoker/poker" />
       <recent name="$PROJECT_DIR$/android/src" />
       <recent name="$PROJECT_DIR$/android/src/main/res" />
       <recent name="$PROJECT_DIR$/android/src/main" />
-      <recent name="$PROJECT_DIR$/android/libs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mycompany.myapp.trackers" />
@@ -3096,34 +2931,34 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.48914224" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.572747" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5702659" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267101" sideWeight="0.51277375" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33782384" sideWeight="0.50651467" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26943004" sideWeight="0.44709712" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1927253" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58860105" sideWeight="0.49185666" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3792746" sideWeight="0.41205212" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21243523" sideWeight="0.44655454" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.49782845" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4611399" sideWeight="0.43702498" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881172" sideWeight="0.48722628" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19067357" sideWeight="0.3990228" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24579489" sideWeight="0.48722628" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14107433" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="RoboVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5119171" sideWeight="0.53933805" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015544" sideWeight="0.47476938" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.267101" sideWeight="0.51277375" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4310881" sideWeight="0.49348533" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26943004" sideWeight="0.5529029" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14115092" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953313" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3015544" sideWeight="0.4809989" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3151,64 +2986,58 @@
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="148" />
+          <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="151" />
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
+          <line>68</line>
           <properties />
-          <option name="timeStamp" value="165" />
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>60</line>
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java</url>
+          <line>79</line>
           <properties />
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="171" />
+          <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java</url>
-          <line>25</line>
+          <line>47</line>
           <properties />
-          <option name="timeStamp" value="172" />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="176" />
+      <option name="time" value="203" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="com.robovm.idea.running.RoboVmIOSConfigurationType">
@@ -3221,193 +3050,174 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.106383">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/reach/CampaignId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7545008">
-          <caret line="111" column="29" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachInteractiveContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.962963">
-          <caret line="424" column="61" selection-start-line="424" selection-start-column="41" selection-end-line="424" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementReachAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.185185">
-          <caret line="824" column="59" selection-start-line="824" selection-start-column="29" selection-end-line="824" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/nativepush/EngagementNativePushAgent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="73" column="89" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
-          <folding>
-            <marker date="1461740520000" expanded="true" signature="2230:2763" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/utils/EngagementUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2796158">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/gcm/EngagementGCMEnabler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6723586">
-          <caret line="67" column="94" selection-start-line="67" selection-start-column="94" selection-end-line="67" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/gcm/EngagementGCMReceiver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.032967035">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/State.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/apis/google/GGLErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build/intermediates/transforms/appdynamics/debug/folders/1/1/debug/com/partypoker/poker/activities/MainActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementDefaultNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14310052">
-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementReachInteractiveContent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1724138">
-          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/reach/EngagementReachContent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1724138">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/EngagementAgentUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2962962">
-          <caret line="69" column="10" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engagement/reach/EngagementDefaultNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.148148">
-          <caret line="492" column="102" selection-start-line="492" selection-start-column="102" selection-end-line="492" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/notifications/GcmPushReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="73" selection-start-line="104" selection-start-column="73" selection-end-line="104" selection-end-column="73" />
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementGCMReceiver.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerCallbackAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="83" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerCallbackRefreshFailure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerCallbackRefreshType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerOpener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerOpenerNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGContainerOpenerNotifierAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGDataLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGOpenType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/GGLContextAnalyticsExtensions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5340557">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGRefreshMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25541794">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/GGLContextAnalytics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.116099074">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGFunctionCallTagHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023219815">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGFunctionCallTagHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25541794">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGFunctionCallMacroHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41950464">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           <folding>
+            <element signature="e#0#1805#0" expanded="false" />
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/android/android-sdk-macosx/sources/android-23/android/app/PendingIntent.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGDispatchResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25054947">
-          <caret line="730" column="57" selection-start-line="730" selection-start-column="57" selection-end-line="730" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#48642#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/AppsFlyerTrackerIOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="79" selection-start-line="54" selection-start-column="79" selection-end-line="54" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.3482972">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/google/tagmanager/TAGFunctionCallMacroHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.25541794">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/CustomEngagementNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appdynamic/ADEumInstrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -3415,13 +3225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/otherlevels/OLOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="5" selection-start-line="57" selection-start-column="4" selection-end-line="70" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -3430,120 +3233,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="80" selection-start-line="56" selection-start-column="80" selection-end-line="56" selection-end-column="80" />
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/resources/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/resources/Images.xcassets/LaunchImage.launchimage/Default-568h@2x~iphone.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/resources/x_button_0@2x.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryAndroid.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementReach/Headers/AEReachModule.h">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEModuleAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="121" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/appsflyer/AppsFlyerTrackerDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementSDK/Classes/AEIdfaProvider.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/EngagementAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.333333">
-          <caret line="81" column="50" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/PushNotificationView.java">
+    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementReach/Headers/AEInteractiveContent.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
+    <entry file="file://$PROJECT_DIR$/ios/libs/Engagement/EngagementReach/Headers/AEReachContent.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="436" column="0" selection-start-line="436" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEReachContent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/activities/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/CustomAENotifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#422#423#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#546#547#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEInteractiveContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AENotifierAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/resources/AEDefaultAnnouncementView.xib">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/IUIApplicationDelegate.java">
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/bindings/engagement/AEDefaultNotifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20897833">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/robovm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/robovm.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -3551,42 +3378,7 @@
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/factories/BrandComponentFactoryIOS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#3529#3530#0" expanded="true" />
-            <element signature="e#3603#3604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/robovm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.75">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/EngagementTrackerIOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -3594,7 +3386,31 @@
     <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/OtherLevelsTrackerIOS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/AppUsageCompositeTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/uikit/UIApplicationDelegateAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.740741">
+          <caret line="258" column="16" selection-start-line="258" selection-start-column="16" selection-end-line="258" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -3602,23 +3418,66 @@
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/trackers/concrete/EngagementTracker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/android/libs/mobile-engagement-4.2.0.jar!/com/microsoft/azure/engagement/EngagementAgent.class">
+    <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/foundation/NSUUID.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.962963">
-          <caret line="115" column="47" selection-start-line="115" selection-start-column="47" selection-end-line="115" selection-end-column="47" />
+        <state vertical-scroll-proportion="-0.5739514">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerAndroid.java">
+    <entry file="jar://$USER_HOME$/.robovm-sdks/robovm-1.14.0/lib/robovm-cocoatouch.jar!/org/robovm/apple/adsupport/ASIdentifierManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3625498">
-          <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.27644232">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/MyViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/trackers/engagement/EngagementTrackerIOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17725259">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="e#3658#3659#0" expanded="true" />
+            <element signature="e#3732#3733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/partypoker/poker/others/BrandComponentFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29098967">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ios/src/main/java/com/partypoker/poker/application/CompositeUIApplicationDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22156574">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

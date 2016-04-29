@@ -29,7 +29,7 @@ public class EngagementTrackerIOS extends EngagementTracker implements IUIApplic
     public void onConfigLoaded(Config config) {
         //if(debug)
         EngagementAgent.setTestLogEnabled(true);
-        System.out.println("Device IDFA: " + ASIdentifierManager.getSharedManager().getAdvertisingIdentifier());
+        System.out.println("Device IDFA: " + ASIdentifierManager.getSharedManager().getAdvertisingIdentifier().toUUID());
         //else
         //EngagementAgent.setTestLogEnabled(false);
     }
@@ -49,34 +49,37 @@ public class EngagementTrackerIOS extends EngagementTracker implements IUIApplic
     @Override
     public void startWithApplicationLaunchOptions(UIApplicationLaunchOptions launchOptions) {
         //in ios client engagement init data are local
+        EngagementAgent.setTestLogEnabled(true);
         AEReachModule reach = AEReachModule.moduleWithNotificationIcon(UIImage.getImage("Icon-60"));
-
+        //reach.registerNotifier(new AEDefaultNotifier(), "CustomAENotifier");
         NSArray<AEReachModule> nsArray = new NSArray<>(reach);
-        EngagementAgent.init(getConnectionString(Config.engagementEndpoint, Config.engagementSdkKeyIOS,
-                Config.engagementAppIdIOS), nsArray);
+        String connectionString = getConnectionString(Config.engagementEndpoint,
+                Config.engagementSdkKeyIOS, Config.engagementAppIdIOS);
+        EngagementAgent.init(connectionString, nsArray);
         isInitialized = true;
     }
 
     @Override
     public void applicationDidRegisterForRemoteNotificationsWithDeviceToken(NSData deviceToken) {
-        System.out.println(tag + " " + deviceToken);
+        System.out.println(tag + " deviceToken " + deviceToken);
         EngagementAgent.shared().registerDeviceToken(deviceToken);
     }
 
     @Override
     public void applicationDidFailToRegisterForRemoteNotificationsWithError(NSError error) {
-        System.out.println(tag + "Failed to get token, error: " + error);
+        System.out.println(tag + " Failed to get token, error: " + error);
     }
 
     @Override
     public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo) {
-        System.out.println(tag + "didReceiveRemoteNotification: " + userInfo.getDictionary());
+        System.out.println(tag + " didReceiveRemoteNotification: " + userInfo.getDictionary());
         EngagementAgent.shared().applicationDidReceiveRemoteNotification(userInfo.getDictionary(), null);
     }
 
     @Override
-    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo, @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
-        System.out.println(tag + "didReceiveRemoteNotification with completionHandler: " + userInfo.getDictionary());
+    public void didReceiveRemoteNotification(UIApplication application, UIRemoteNotification userInfo,
+                                             @Block VoidBlock1<UIBackgroundFetchResult> completionHandler) {
+        System.out.println(tag + " didReceiveRemoteNotification with completionHandler: " + userInfo.getDictionary());
         EngagementAgent.shared().applicationDidReceiveRemoteNotification(userInfo.getDictionary(), completionHandler);
     }
 

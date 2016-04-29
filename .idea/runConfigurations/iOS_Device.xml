@@ -4,8 +4,8 @@
     <option name="moduleName" value="ios" />
     <option name="targetType" value="Device" />
     <option name="deviceArch" value="arm64" />
-    <option name="signingIdentity" value="iPhone Developer: Sergii Liubetskyi (68923JMADJ)" />
-    <option name="provisioningProfile" value="iOS Team Provisioning Profile: test.pokers.*" />
+    <option name="signingIdentity" value="Auto (matches 'iPhone Developer|iOS Development')" />
+    <option name="provisioningProfile" value="PMU.fr Poker DEV" />
     <option name="simArch" value="x86_64" />
     <option name="simulatorName" value="com.apple.CoreSimulator.SimDeviceType.iPhone-6s" />
     <option name="arguments" value="" />

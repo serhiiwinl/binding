@@ -37,11 +37,9 @@ public class AEReachModule extends NSObject {
         AEReachModuleStateShowing(4);
 
         private final long n;
-
         private AEReachModuleState(long n) {
             this.n = n;
         }
-
         public long value() {
             return 0;
         }
@@ -55,5 +53,14 @@ public class AEReachModule extends NSObject {
 
     @Method(selector = "moduleWithNotificationIcon:")
     public static native AEReachModule moduleWithNotificationIcon(UIImage icon);
+
+    /**
+     * Register a notifier for a given category.
+     * @param notifier Notifier to register for a category.
+     * @param category The name of the category.
+     */
+    //- (void)registerNotifier:(id<AENotifier>)notifier forCategory:(NSString*)category;
+    @Method(selector = "registerNotifier:forCategory:")
+    public native void registerNotifier(AENotifier notifier, String category);
 
 }

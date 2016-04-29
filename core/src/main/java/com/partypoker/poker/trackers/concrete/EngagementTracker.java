@@ -8,7 +8,7 @@ import com.partypoker.poker.trackers.impl.AppUsageTrackerAdapter;
 public class EngagementTracker extends AppUsageTrackerAdapter {
     protected boolean isInitialized;
 
-    protected String getConnectionString(String engagementEndpoint, String engagementAppId, String engagementSdkKey) {
-        return String.format("Endpoint=%s;AppId=%s;SdkKey=%s", engagementEndpoint, engagementAppId, engagementSdkKey);
+    protected String getConnectionString(String engagementEndpoint,  String engagementSdkKey, String engagementAppId) {
+        return String.format("Endpoint=%s;SdkKey=%s;AppId=%s", engagementEndpoint, engagementSdkKey, engagementAppId);
     }
 }
