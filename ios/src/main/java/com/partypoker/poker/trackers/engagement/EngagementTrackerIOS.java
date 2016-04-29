@@ -1,10 +1,11 @@
-package com.partypoker.poker.trackers;
+package com.partypoker.poker.trackers.engagement;
 
 import com.partypoker.poker.Config;
 import com.partypoker.poker.application.IUIApplicationDelegate;
 import com.partypoker.poker.bindings.engagement.AEReachModule;
 import com.partypoker.poker.bindings.engagement.EngagementAgent;
 import com.partypoker.poker.others.State;
+import com.partypoker.poker.trackers.TrackingList;
 import com.partypoker.poker.trackers.concrete.EngagementTracker;
 import com.partypoker.poker.tracking.IBaseApplicationActions;
 import com.partypoker.poker.tracking.IConfigLoaded;
@@ -49,6 +50,7 @@ public class EngagementTrackerIOS extends EngagementTracker implements IUIApplic
     public void startWithApplicationLaunchOptions(UIApplicationLaunchOptions launchOptions) {
         //in ios client engagement init data are local
         AEReachModule reach = AEReachModule.moduleWithNotificationIcon(UIImage.getImage("Icon-60"));
+
         NSArray<AEReachModule> nsArray = new NSArray<>(reach);
         EngagementAgent.init(getConnectionString(Config.engagementEndpoint, Config.engagementSdkKeyIOS,
                 Config.engagementAppIdIOS), nsArray);
